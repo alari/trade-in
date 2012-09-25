@@ -1,0 +1,21 @@
+[submodule "framework"]
+	path = framework
+	url = git://github.com/alari/yii-framework.git
+[submodule "protected/extensions/yiiext/behaviors/activerecord-relation"]
+	path = protected/extensions/yiiext/behaviors/activerecord-relation
+	url = https://github.com/yiiext/activerecord-relation-behavior.git
+[submodule "protected/extensions/giix"]
+	path = protected/extensions/giix
+	url = git://github.com/alari/giix.git
+[submodule "protected/modules/imagesHolder"]
+	path = protected/modules/imagesHolder
+	url = git@github.com:alari/yii-imagesHolder.git
+[submodule "protected/extensions/imagine"]
+	path = protected/extensions/imagine
+	url = git@github.com:alari/yii-imagine.git
+[submodule "protected/extensions/yiiext/commands/migrate"]
+	path = protected/extensions/yiiext/commands/migrate
+	url = https://github.com/yiiext/migrate-command
+[submodule "protected/extensions/shared-core"]
+	path = protected/extensions/shared-core
+	url = https://github.com/alari/yii-shared-core.git

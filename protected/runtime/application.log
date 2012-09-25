@@ -1,0 +1,623 @@
+2012/09/24 13:16:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /home/egor/public_html/trade-in/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/egor/public_html/trade-in/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/egor/public_html/trade-in/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(443): CModule->getComponent('db')
+#4 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(452): MigrateCommand->getDbConnection()
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(483): MigrateCommand->getMigrationHistory(-1)
+#6 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(85): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/09/24 13:18:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/09/24 13:20:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/09/24 14:57:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/09/24 15:18:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/09/25 11:14:20 [error] [php] Invalid argument supplied for foreach() (/home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php:345)
+Stack trace:
+#0 unknown(0): EMigrateCommand->actionUp()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EMigrateCommand->run()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/09/25 11:15:54 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'module' in 'where clause'. The SQL statement executed was: SELECT `version`
+FROM `tbl_migration`
+WHERE module=:module AND version=:version.
+2012/09/25 11:15:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'module' in 'where clause'. The SQL statement executed was: SELECT `version`
+FROM `tbl_migration`
+WHERE module=:module AND version=:version' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(439): CDbCommand->queryRow(true, Array)
+#2 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(461): EMigrateCommand->ensureBaseMigration('tradein')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('tradein: m12092...')
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#5 [internal function]: EMigrateCommand->actionUp(Array)
+#6 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#7 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#11 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#12 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#13 {main}
+---
+2012/09/25 11:16:31 [error] [php] include(EDbMigration.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/migrations/m120925_071431_migrateCommand.php(4): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(429): require_once()
+#2 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(385): MigrateCommand->instantiateMigration()
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): MigrateCommand->migrateUp()
+#4 unknown(0): MigrateCommand->actionUp()
+#5 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#6 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): MigrateCommand->run()
+#7 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#9 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#10 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#11 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/09/25 11:20:58 [error] [php] Invalid argument supplied for foreach() (/home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php:345)
+Stack trace:
+#0 unknown(0): EMigrateCommand->actionUp()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EMigrateCommand->run()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/09/25 12:22:44 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:15 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:16 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:19 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:19 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:20 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:29 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:30 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:39 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:39 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:39 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:40 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:40 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:40 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:51 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:52 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:52 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:23:58 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:24:47 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:23 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:24 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:29 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:51 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:52 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:52 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:53 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:29:53 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:31:07 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:31:27 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:31:33 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:31:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/09/25 12:32:18 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:19 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:19 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:20 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:50 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:54 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:54 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:55 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:32:59 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensio+
+            ns.yiiext.commands.migrate.EMigrateCommand" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/egor/public_html/trade-in/framework/YiiBase.php:318
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(138): YiiBase::createComponent(Array, 'migrate', Object(CConsoleCommandRunner))
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(65): CConsoleCommandRunner->createCommand('migrate')
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#6 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#7 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#8 {main}
+---
+2012/09/25 12:49:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-45b_160' (errno: 121). The SQL statement executed was: ALTER TABLE `tbl_car_brand` ADD CONSTRAINT `page_pic` FOREIGN KEY (`pic_holder_id`) REFERENCES `tbl_images_holder` (`id`).
+2012/09/25 12:49:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-45b_160' (errno: 121). The SQL statement executed was: ALTER TABLE `tbl_car_brand` ADD CONSTRAINT `page_pic` FOREIGN KEY (`pic_holder_id`) REFERENCES `tbl_images_holder` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('page_pic', '{{car_brand}}', 'pic_holder_id', '{{images_holder...', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m120925_083348_Image.php(12): CDbMigration->addForeignKey('page_pic', '{{car_brand}}', 'pic_holder_id', '{{images_holder...', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m120925_083348_Image->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m120925_083348_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m120925_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
