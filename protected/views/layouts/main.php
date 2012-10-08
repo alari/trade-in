@@ -29,7 +29,7 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
+				array('label'=>'Home', 'url'=>array('/tradeIn/index')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
@@ -54,6 +54,21 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
+<div align="center">
+    <?
+        $criteria = new CDbCriteria;
+        $criteria->join = 'LEFT JOIN tbl_held_image himg ON himg.holder_id = t.pic_holder_id';
+        $criteria->condition = 'himg.holder_id is not null';
+        $carBrands = CarBrand::model()->findAll($criteria);
+        shuffle($carBrands);
+        $i=0;
 
+        foreach($carBrands as $brand){
+          $image = $brand->picHolder->images[0];
+          echo '&nbsp;'.CHtml::image($image->getSrc('tiny'),$brand->title).'&nbsp;';
+          if(++$i == 10) break;
+        }
+    ?>
+</div>
 </body>
 </html>

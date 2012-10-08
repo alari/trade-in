@@ -27,7 +27,7 @@
         <?php echo $form->labelEx($model, 'carBrands'); ?>
         <?php echo $form->listBox($model, 'carBrands',
         CHtml::listData(CarBrand::model()->findAll(), 'id', 'title'),
-        array('multiple' => 'multiple', 'class' => 'carBrands')); ?>
+        array('multiple' => 'multiple', 'class' => 'carBrands' , 'size' => '15' , )); ?>
     </div>
 
 	<div class="row">

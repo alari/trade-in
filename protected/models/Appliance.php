@@ -8,31 +8,14 @@ class Appliance extends BaseAppliance implements ImagesHolderModel,IFormAddition
 		return parent::model($className);
 	}
 
-    public function beforeSave(){
-        parent::beforeSave();
+    public function onAfterConstruct(){
 
         $this->hash = uniqid('user');
+        $this->mail_status = 'wait';
 
         return true;
     }
 
-    public function relations()
-    {
-        $relations = parent::relations();
-
-        $relations['listHolder'] = array(self::BELONGS_TO, 'ImagesHolder', 'list_holder_id');
-
-        return $relations;
-    }
-
-    public function rules()
-    {
-        $rules = parent::rules();
-
-        $rules[] = array('list_holder_id', 'default', 'setOnEmpty' => true, 'value' => null);
-
-        return $rules;
-    }
     public function imageHolders()
     {
         return array(
@@ -55,5 +38,7 @@ class Appliance extends BaseAppliance implements ImagesHolderModel,IFormAddition
 
         return $additionalFields;
     }
+
+
 
 }

@@ -29,10 +29,20 @@ class m120924_090148_tradeIn extends CDbMigration
             'email' => 'varchar (200) NOT NULL',
             'hash' => 'varchar (64)',
             'car_brand_id' => 'int',
-            'car_model' => 'varchar (60)',
+            'car_model_id' => 'int',
         ));
 
-        $this->addForeignKey("car_brand", "{{appliance}}", "car_brand_id", "{{car_brand}}", "id");
+        $this->createTable('{{car_model}}', array(
+            'id' => 'pk',
+            'car_brand_id' => 'int',
+            'title' => 'varchar (200) NOT NULL',
+        ));
+
+        $this->addForeignKey("car_model_brand", "{{car_model}}", "car_brand_id", "{{car_brand}}", "id");
+
+        $this->addForeignKey("appliance_car_model", "{{appliance}}", "car_model_id", "{{car_model}}", "id");
+
+        $this->addForeignKey("appliance_car_brand", "{{appliance}}", "car_brand_id", "{{car_brand}}", "id");
 
         $this->addForeignKey("service", "{{car_brand_to_service}}", "service_id", "{{service}}", "id", "CASCADE", "CASCADE");
         $this->addForeignKey("brand", "{{car_brand_to_service}}", "car_brand_id", "{{car_brand}}", "id", "CASCADE", "CASCADE");

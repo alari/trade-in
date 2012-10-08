@@ -77,6 +77,7 @@ class ApplianceController extends Controller
                    $negotiation->hash = uniqid('service');
                    $negotiation->service_id = $service->id;
                    $negotiation->appliance_id = $model->id;
+                   $negotiation->status = 'wait';
                    $negotiation->save();
                 }
 

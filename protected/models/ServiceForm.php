@@ -2,6 +2,7 @@
 
 class ServiceForm extends CFormModel
 {
+    public $managerName;
     public $price;
     public $ransom;
     public $offset;
@@ -32,6 +33,7 @@ class ServiceForm extends CFormModel
             'offset'=>Yii::t("app", 'В зачет'),
             'commission'=>Yii::t("app", 'На коммиссию'),
             'comment'=>Yii::t("app", 'Комментарий'),
+            'managerName'=>Yii::t("app", 'Имя менеджера'),
         );
     }
 }

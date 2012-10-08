@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Trade In',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -44,11 +44,12 @@ return array(
                     'default' => 'big',
                     'sizes' => array(
                         "big" => "800x600",
-                        "tiny" => "152x130 thumb",
+                        "logo" => "150x150 thumb",
+                        "tiny" => "78x78 thumb",
                     )
                 ),
                 'list' => array(
-                    'maxNum' => 0,
+                    'maxNum' => 4,
                     'preview' => 'tiny',
                     'default' => 'big',
                     'sizes' => array(
@@ -57,6 +58,18 @@ return array(
                     )
                 ),
             )
+        ),
+
+        'emailSender'=>array(
+            'from'=>'scsware@yandex.ru',
+            'fromTitle'=>'Trade in',
+
+            'mode'=>'smtp',
+            'host'=>'smtp.yandex.ru',
+            'port'=>465,
+            'security'=>'ssl',
+            'username'=>'scsware@yandex.ru',
+            'password'=>'630124',
         ),
 
 	),
@@ -70,15 +83,18 @@ return array(
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
-			'urlFormat'=>'path',
-			'rules'=>array(
+            'urlFormat' => 'path',
+            'showScriptName' => false,
+            'rules' => array(
 
+                'update-account/<hash:[\w\-]+>' => 'tradeIn/accountUpdate',
                 'account/<hash:[\w\-]+>' => 'tradeIn/account',
                 'denial/<hash:[\w\-]+>' => 'tradeIn/denial',
 
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                '' => 'tradeIn/index',
 			),
 		),
 
@@ -126,5 +142,49 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+        'statusNegotiation' => array(
+            'wait' => 'Ожидание',
+            'denial' => 'Отказ',
+            'tender' => 'Предложение',
+        ),
+        'appliance' => array(
+            'form'=>array(
+                'engine' =>array(
+                    'benzine'=>'бензиновый',
+                    'diesel'=>'дизельный',
+                    'hybrid'=>'гибридный',
+                ),
+                'volume' => array(
+                    'startVolume' => '0.8',
+                    'endVolume' => '6.0',
+                ),
+                'gearbox' => array(
+                    'mechanic'=>'МКПП',
+                    'automatic'=>'АКПП',
+                    'robotic_mechanic'=>'Роботизированная механика',
+                    'variator'=>'Вариатор',
+                ),
+                'transmission'=>array(
+                    'front'=>'передний',
+                    'rear'=>'задний',
+                    'full'=>'полный',
+                ),
+                'salon' => array(
+                    'fabric'=>'ткань',
+                    'velvet'=>'велюр',
+                    'skin'=>'кожа',
+                    'mixed'=>'комбинированный',
+                ),
+                'condition' => array(
+                    'excellent'=>'отличное',
+                    'good'=>'хорошее',
+                    'medium'=>'среднее',
+                    'needs repair'=>'требует ремонта',
+                ),
+                'year' => array(
+                    'start' => '1990',
+                ),
+            ),
+        ),
 	),
 );

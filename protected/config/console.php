@@ -9,6 +9,17 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+    // autoloading model and component classes
+    'import'=>array(
+        'application.models.*',
+        'application.components.*',
+        // For giix
+        'ext.giix.components.*',
+        'application.modules.imagesHolder.models.*',
+        'ext.shared-core.form.*',
+        'ext.shared-core.*',
+    ),
+
 	// application components
 	'components'=>array(
         'db' => array(
@@ -34,7 +45,40 @@ return array(
     'modules'=>array(
         #...
 
-        'imagesHolder',
+        'imagesHolder' => array(
+            'types' => array(
+                'pic' => array(
+                    'maxNum' => 1,
+                    'preview' => 'tiny',
+                    'default' => 'big',
+                    'sizes' => array(
+                        "big" => "800x600",
+                        "logo" => "150x150 thumb",
+                        "tiny" => "78x78 thumb",
+                    )
+                ),
+                'list' => array(
+                    'maxNum' => 4,
+                    'preview' => 'tiny',
+                    'default' => 'big',
+                    'sizes' => array(
+                        "big" => "800x600",
+                        "tiny" => "152x130 thumb",
+                    )
+                ),
+            )
+        ),
+        'emailSender'=>array(
+            'from'=>'scsware@yandex.ru',
+            'fromTitle'=>'Trade in',
+
+            'mode'=>'smtp',
+            'host'=>'smtp.yandex.ru',
+            'port'=>465,
+            'security'=>'ssl',
+            'username'=>'scsware@yandex.ru',
+            'password'=>'630124',
+        ),
 
         #...
     ),
@@ -48,5 +92,12 @@ return array(
             // название компонента для подключения к базе данных
             'connectionID'=>'db',
         ),
+        'pmq' => array(
+            'class' => 'application.commands.EmailStackSenderCommand'
+        )
+    ),
+    'params' => array(
+        // this is used in contact page
+        'httpHost' => 'http://tradein.e.dev',
     ),
 );

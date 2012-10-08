@@ -621,3 +621,484 @@ Stack trace:
 #14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
 #15 {main}
 ---
+2012/09/26 17:39:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1101 BLOB/TEXT column 'status' can't have a default value. The SQL statement executed was: CREATE TABLE `tbl_negotiation` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`hash` varchar (64),
+	`service_id` int,
+	`appliance_id` int,
+	`manager_name` varchar (200),
+	`price` int,
+	`status` tinytext DEFAULT "wait",
+	`comment` tinytext
+).
+2012/09/26 17:39:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1101 BLOB/TEXT column 'status' can't have a default value. The SQL statement executed was: CREATE TABLE `tbl_negotiation` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`hash` varchar (64),
+	`service_id` int,
+	`appliance_id` int,
+	`manager_name` varchar (200),
+	`price` int,
+	`status` tinytext DEFAULT "wait",
+	`comment` tinytext
+)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1251): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(229): CDbCommand->createTable('{{negotiation}}', Array, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m120924_132346_negotiation.php(16): CDbMigration->createTable('{{negotiation}}', Array)
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m120924_132346_negotiation->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m120924_132346_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m120924_1...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 12:58:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_296' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_brand` (`id`).
+2012/10/02 12:58:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_296' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_brand` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_brand}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m121002_085729_ForeignKeyAppliance.php(7): CDbMigration->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_brand}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m121002_085729_ForeignKeyAppliance->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m121002_085729_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m121002_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 12:58:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_297' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_brand` (`id`).
+2012/10/02 12:58:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_297' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_brand` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_brand}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m121002_085729_ForeignKeyAppliance.php(7): CDbMigration->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_brand}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m121002_085729_ForeignKeyAppliance->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m121002_085729_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m121002_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 12:59:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_298' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`).
+2012/10/02 12:59:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_298' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_model}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m121002_085729_ForeignKeyAppliance.php(7): CDbMigration->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_model}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m121002_085729_ForeignKeyAppliance->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m121002_085729_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m121002_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 12:59:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_2a3' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`).
+2012/10/02 12:59:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_2a3' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `car_model_appliance` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_model}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m121002_085729_ForeignKeyAppliance.php(7): CDbMigration->addForeignKey('car_model_appli...', '{{appliance}}', 'car_model', '{{car_model}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m121002_085729_ForeignKeyAppliance->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m121002_085729_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m121002_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 13:01:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradein.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/10/02 13:01:35 [error] [php] include(EDbMigration.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/migrations/m120925_083348_Image.php(4): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(429): require_once()
+#2 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(385): MigrateCommand->instantiateMigration()
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): MigrateCommand->migrateUp()
+#4 unknown(0): MigrateCommand->actionUp()
+#5 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#6 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): MigrateCommand->run()
+#7 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#9 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#10 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#11 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/02 13:04:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_2e3' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `appliance_car_model` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`).
+2012/10/02 13:04:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_2e3' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `appliance_car_model` FOREIGN KEY (`car_model`) REFERENCES `tbl_car_model` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('appliance_car_m...', '{{appliance}}', 'car_model', '{{car_model}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m121001_120019_carModel.php(14): CDbMigration->addForeignKey('appliance_car_m...', '{{appliance}}', 'car_model', '{{car_model}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m121001_120019_carModel->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m121001_120019_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m121001_1...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/02 13:06:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_304' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `appliance_car_model` FOREIGN KEY (`car_model_id`) REFERENCES `tbl_car_model` (`id`).
+2012/10/02 13:06:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1005 Can't create table 'tradein.#sql-425_304' (errno: 150). The SQL statement executed was: ALTER TABLE `tbl_appliance` ADD CONSTRAINT `appliance_car_model` FOREIGN KEY (`car_model_id`) REFERENCES `tbl_car_model` (`id`)' in /home/egor/public_html/trade-in/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/db/CDbCommand.php(1362): CDbCommand->execute()
+#1 /home/egor/public_html/trade-in/framework/db/CDbMigration.php(344): CDbCommand->addForeignKey('appliance_car_m...', '{{appliance}}', 'car_model_id', '{{car_model}}', 'id', NULL, NULL)
+#2 /home/egor/public_html/trade-in/protected/migrations/m120924_090148_tradeIn.php(43): CDbMigration->addForeignKey('appliance_car_m...', '{{appliance}}', 'car_model_id', '{{car_model}}', 'id')
+#3 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(386): m120924_090148_tradeIn->up()
+#4 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(466): MigrateCommand->migrateUp('m120924_090148_...')
+#5 /home/egor/public_html/trade-in/framework/cli/commands/MigrateCommand.php(110): EMigrateCommand->migrateUp('core: m120924_0...')
+#6 /home/egor/public_html/trade-in/protected/extensions/yiiext/commands/migrate/EMigrateCommand.php(265): MigrateCommand->actionUp(Array)
+#7 [internal function]: EMigrateCommand->actionUp(Array)
+#8 /home/egor/public_html/trade-in/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(EMigrateCommand), Array)
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once('/home/egor/publ...')
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once('/home/egor/publ...')
+#15 {main}
+---
+2012/10/04 17:20:13 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:20:36 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:20:37 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:20:38 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:20:42 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:21:53 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:21:53 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:21:58 [error] [php] include(Appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:28:23 [error] [php] include(GxActiveRecord.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/models/_base/BaseAppliance.php(33): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/framework/YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 /home/egor/public_html/trade-in/protected/models/Appliance.php(5): spl_autoload_call()
+#4 /home/egor/public_html/trade-in/framework/YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:28:27 [error] [php] include(GxActiveRecord.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/models/_base/BaseAppliance.php(33): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/framework/YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 /home/egor/public_html/trade-in/protected/models/Appliance.php(5): spl_autoload_call()
+#4 /home/egor/public_html/trade-in/framework/YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:30:45 [error] [php] include(BaseAppliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:44:06 [error] [php] include(BaseAppliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#2 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#3 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#4 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#7 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#8 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 17:45:17 [error] [php] include(GxActiveRecord.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/models/_base/BaseAppliance.php(33): spl_autoload_call()
+#1 /home/egor/public_html/trade-in/framework/YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 /home/egor/public_html/trade-in/protected/models/Appliance.php(5): spl_autoload_call()
+#4 /home/egor/public_html/trade-in/framework/YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(24): spl_autoload_call()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(47): EmailStackSenderCommand->getApplience()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#9 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#13 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#14 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 18:40:58 [error] [php] Argument 2 passed to EmailStackSenderCommand::mailContent() must be an instance of CConsoleCommand, string given, called in /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php on line 48 and defined (/home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php:63)
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#4 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#5 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 18:43:03 [error] [php] require(/views/emailLayouts/appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/console/CConsoleCommand.php:478)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#5 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#6 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 18:44:02 [error] [php] require(/views/emailLayouts/appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/console/CConsoleCommand.php:478)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#5 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#6 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 18:44:59 [error] [php] require(/views/emailLayouts/appliance.php): failed to open stream: No such file or directory (/home/egor/public_html/trade-in/framework/console/CConsoleCommand.php:478)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#5 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#6 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/04 18:48:39 [error] [php] Undefined variable: mail (/home/egor/public_html/trade-in/protected/views/emailLayouts/appliance.php:13)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#2 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#5 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#6 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:33:30 [error] [php] Undefined index: list (/home/egor/public_html/trade-in/protected/modules/imagesHolder/ImagesHolderModule.php:28)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolder.php(28): ImagesHolder->getMaxNewImages()
+#1 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolderBehavior.php(25): ImagesHolder->setImagesFromPost()
+#2 /home/egor/public_html/trade-in/framework/base/CComponent.php(559): ImagesHolderBehavior->afterSave()
+#3 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(839): Appliance->raiseEvent()
+#4 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(914): Appliance->onAfterSave()
+#5 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(1066): Appliance->afterSave()
+#6 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(796): Appliance->update()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(27): Appliance->save()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(51): EmailStackSenderCommand->getAppliances()
+#9 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#11 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#12 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#13 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#14 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#15 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:34:06 [error] [php] Undefined index: list (/home/egor/public_html/trade-in/protected/modules/imagesHolder/ImagesHolderModule.php:28)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolder.php(28): ImagesHolder->getMaxNewImages()
+#1 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolderBehavior.php(25): ImagesHolder->setImagesFromPost()
+#2 /home/egor/public_html/trade-in/framework/base/CComponent.php(559): ImagesHolderBehavior->afterSave()
+#3 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(839): Appliance->raiseEvent()
+#4 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(914): Appliance->onAfterSave()
+#5 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(1066): Appliance->afterSave()
+#6 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(796): Appliance->update()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(27): Appliance->save()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(51): EmailStackSenderCommand->getAppliances()
+#9 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#11 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#12 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#13 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#14 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#15 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:35:51 [error] [php] Attempt to assign property of non-object (/home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php:27)
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#4 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#5 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:36:54 [error] [php] Attempt to assign property of non-object (/home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php:27)
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#4 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#5 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:38:50 [error] [php] Attempt to assign property of non-object (/home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php:27)
+Stack trace:
+#0 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#1 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#4 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#5 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+
+2012/10/05 10:40:45 [error] [php] Undefined index: list (/home/egor/public_html/trade-in/protected/modules/imagesHolder/ImagesHolderModule.php:28)
+Stack trace:
+#0 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolder.php(28): ImagesHolder->getMaxNewImages()
+#1 /home/egor/public_html/trade-in/protected/modules/imagesHolder/models/ImagesHolderBehavior.php(25): ImagesHolder->setImagesFromPost()
+#2 /home/egor/public_html/trade-in/framework/base/CComponent.php(559): ImagesHolderBehavior->afterSave()
+#3 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(839): Appliance->raiseEvent()
+#4 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(914): Appliance->onAfterSave()
+#5 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(1066): Appliance->afterSave()
+#6 /home/egor/public_html/trade-in/framework/db/ar/CActiveRecord.php(796): Appliance->update()
+#7 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(27): Appliance->save()
+#8 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(51): EmailStackSenderCommand->getAppliances()
+#9 /home/egor/public_html/trade-in/protected/commands/EmailStackSenderCommand.php(14): EmailStackSenderCommand->mailBuilder()
+#10 /home/egor/public_html/trade-in/framework/console/CConsoleCommandRunner.php(68): EmailStackSenderCommand->run()
+#11 /home/egor/public_html/trade-in/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#12 /home/egor/public_html/trade-in/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#13 /home/egor/public_html/trade-in/framework/yiic.php(34): CConsoleApplication->run()
+#14 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
+#15 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
+

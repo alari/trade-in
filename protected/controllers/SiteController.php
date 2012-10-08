@@ -106,4 +106,155 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionParserLogo(){
+        $brands = CarBrand::model()->findAll();
+
+        foreach($brands as $brand){
+            /*//$img = 'http://auto.dmir.ru/img/bglogo/'.str_replace(' ','-',strtolower(trim($brand->title))).'.jpg';
+            $img = 'http://assets.a1.ru/brand/logo/5/'.str_replace(' ','',strtolower(trim($brand->title))).'-small_thumb.png';
+            $headers_array = get_headers($img);//отсылаем запрос
+            $request = $headers_array[0];//выбираем главный ответ сервера
+            if ($request != 'HTTP/1.1 404 Not Found' && $request != 'HTTP/1.1 400 Bad Request' ){
+                $im = new HeldImage();
+                $im->holder_id = $brand->picHolder->id;
+                $im->title = trim($brand->title);
+                if ($im->save()) {
+                    $im->setImageFile($img, 'png');
+                    $im->save();
+                }
+            }*/
+
+            $img = glob('img_brand/'.str_replace(' ','',strtolower(trim($brand->title))).'*');
+            if (count($img)){
+                $im = new HeldImage();
+                $im->holder_id = $brand->picHolder->id;
+                $im->title = trim($brand->title);
+                if ($im->save()) {
+                    $im->setImageFile($img['0'], 'png');
+                    $im->save();
+                }
+            }
+
+        }
+
+
+    }
+
+    public function actionAddMarks(){
+        $marks = array(
+            "Alfa Romeo" => "Alfa Romeo",
+            "Audi" => "Audi",
+            "BMW" => "BMW",
+            "BYD" => "BYD",
+            "Cadillac" => "Cadillac",
+            "Cherry" => "Cherry",
+            "Chevrolet" => "Chevrolet",
+            "Chrysler" => "Chrysler",
+            "Citroen" => "Citroen",
+            "Daewoo" => "Daewoo",
+            "Daihatsu" => "Daihatsu",
+            "Derways" => "Derways",
+            "Dodge" => "Dodge",
+            "FAW" => "FAW",
+            "Fiat" => "Fiat",
+            "Ford" => "Ford",
+            "Geely" => "Geely",
+            "GMC" => "GMC",
+            "Great Wall" => "Great Wall",
+            "Honda" => "Honda",
+            "HOWO" => "HOWO",
+            "Hummer" => "Hummer",
+            "Hyundai" => "Hyundai",
+            "Infiniti" => "Infiniti",
+            "Isuzu" => "Isuzu",
+            "IVECO" => "IVECO",
+            "Jaguar" => "Jaguar",
+            "Jeep" => "Jeep",
+            "KAWASAKI" => "KAWASAKI",
+            "Kia" => "Kia",
+            "Kubistar" => "Kubistar",
+            "Lamberet" => "Lamberet",
+            "Lancia" => "Lancia",
+            "Land Rover" => "Land Rover",
+            "Lexus" => "Lexus",
+            "Lifan" => "Lifan",
+            "Lincoln" => "Lincoln",
+            "Mazda" => "Mazda",
+            "Mercedes Benz" => "Mercedes Benz",
+            "Mini" => "Mini",
+            "Mitsubishi" => "Mitsubishi",
+            "Narko" => "Narko",
+            "Nissan" => "Nissan",
+            "Nissan Datsun" => "Nissan Datsun",
+            "Opel" => "Opel",
+            "Peugeot" => "Peugeot",
+            "Pontiac" => "Pontiac",
+            "Porsche" => "Porsche",
+            "Renault" => "Renault",
+            "Renders" => "Renders",
+            "SAAB" => "SAAB",
+            "Sang Yong" => "Sang Yong",
+            "Schimitz" => "Schimitz",
+            "Seat" => "Seat",
+            "Skoda" => "Skoda",
+            "Ssang Yong" => "Ssang Yong",
+            "Subaru" => "Subaru",
+            "Suzuki" => "Suzuki",
+            "Toyota" => "Toyota",
+            "Volga" => "Volga",
+            "Volkswagen" => "Volkswagen",
+            "Volvo" => "Volvo",
+            "Yutong" => "Yutong",
+            "ВАЗ" => "ВАЗ",
+            "ГАЗ" => "ГАЗ",
+            "ЗАЗ" => "ЗАЗ",
+            "ЗИЛ" => "ЗИЛ",
+            "ИЖ" => "ИЖ",
+            "УАЗ" => "УАЗ",
+        );
+
+        foreach($marks as $mark){
+            $carBrand = new CarBrand();
+            $carBrand->title = $mark;
+            $carBrand->save();
+        }
+
+
+    }
+
+    public function actionAddModels(){
+        include('simple_html_dom.php');
+
+        $brands = CarBrand::model()->findAll();
+
+        foreach($brands as $brand){
+            if( $curl = curl_init() ) {
+                curl_setopt($curl, CURLOPT_URL, 'http://www.ctk-trade-in.ru/forms/comissionForm/');
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
+                curl_setopt($curl, CURLOPT_POST, true);
+                curl_setopt($curl, CURLOPT_POSTFIELDS, "comission_brand=".$brand['title']);
+                $out = curl_exec($curl);
+                $html = str_get_html($out);
+                //echo $out;
+                curl_close($curl);
+
+                //$html->find('select[name="comission_model"]')->innertext;
+                foreach($html->find('select[name="comission_model"]') as $e){
+                    foreach($e->find('option') as $option){
+                        $model = new CarModel();
+                        $model->title = $option->value;
+                        $model->car_brand_id = $brand['id'];
+                        $model->save();
+                        //echo $option->value.'<br>';
+                    }
+                }
+                //echo $html;
+
+                //print_r($model);
+
+            }
+        }
+
+    }
 }

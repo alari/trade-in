@@ -35,15 +35,18 @@ class TradeInController extends Controller
     }
 
     public function actionAccount($hash){
-
+        $status = 'tender';
         if($_POST){
             if($_POST['ServiceForm']){
+
                 $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));;
-                $model->price = $_POST['ServiceForm']['price'];
+                $model->price = (int) str_replace(' ','',$_POST['ServiceForm']['price']);
                 $model->ransom = $_POST['ServiceForm']['ransom'];
                 $model->offset = $_POST['ServiceForm']['offset'];
                 $model->commission = $_POST['ServiceForm']['commission'];
+                $model->manager_name = $_POST['ServiceForm']['managerName'];
                 $model->comment = $_POST['ServiceForm']['comment'];
+                $model->status = $status;
                 $model->save();
                 $this->render('sendForm');
             }
@@ -53,8 +56,12 @@ class TradeInController extends Controller
             $model = Appliance::model()->findByAttributes(array("hash"=>$hash));
             if(!is_object($model)){
                 $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));
+                if($model->status == 'wait'){
                 $formService = new ServiceForm();
                 $this->render('service',array('model'=>$model,'formService' => $formService));
+                }else{
+                    $this->render('negotiationClosed');
+                }
             }else{
 
             $this->render('account',array('model'=>$model));
@@ -63,22 +70,95 @@ class TradeInController extends Controller
     }
 
     public function actionDenial($hash){
-
+        $status = 'denial';
         if($_POST){
             if($_POST['DenialForm']){
-                $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));;
+                $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));
                 $model->disrepair = $_POST['DenialForm']['disrepair'];
                 $model->unliquidated = $_POST['DenialForm']['unliquidated'];
                 $model->inappropriate = $_POST['DenialForm']['inappropriate'];
                 $model->comment = $_POST['DenialForm']['comment'];
+                $model->status = $status;
                 $model->save();
                 $this->render('sendForm');
             }
         }else{
+            $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));
+            if($model->status == 'wait'){
+                $formService = new DenialForm();
+                $this->render('denialForm',array('formService' => $formService));
+            }else{
+                $this->render('negotiationClosed');
+            }
+        }
+    }
 
-        $formService = new DenialForm();
-        $this->render('denialForm',array('formService' => $formService));
+    public function actionIndex()
+    {
+        $model=new Appliance;
 
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
+
+        if(isset($_POST['Appliance']))
+        {
+            $model->attributes=$_POST['Appliance'];
+            if($model->save()){
+                //Yii::app()->getModule("emailSender")->send($model->email, 'user', '<a href="http://tradein.e.dev/account/'.$model->hash.'" >Личный кабинет</a>');
+                foreach($model->carBrand->services as $service){
+                    $negotiation = new Negotiation();
+                    $negotiation->hash = uniqid('service');
+                    $negotiation->mail_status = 'wait';
+                    $negotiation->service_id = $service->id;
+                    $negotiation->appliance_id = $model->id;
+                    $negotiation->status = 'wait';
+                    $negotiation->save();
+                    //Yii::app()->getModule("emailSender")->send($negotiation->service->email, 'servise', '<a href="http://tradein.e.dev/account/'.$negotiation->hash.'" >Посмотреть новую заявку</a>');
+                }
+
+                $this->redirect(array('tradeIn/account','hash'=>$model->hash));
+            }
+        }
+
+        $this->render('index',array(
+            'model'=>$model,
+        ));
+    }
+
+    public function actionAccountUpdate($hash)
+    {
+        $model= Appliance::model()->findByAttributes(array('hash'=>$hash));
+
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
+
+        if(isset($_POST['Appliance']))
+        {
+            $model->attributes=$_POST['Appliance'];
+            if($model->save())
+                $this->redirect(array('tradeIn/account','hash'=>$model->hash));
+        }
+
+        $this->render('updateAccount',array(
+            'model'=>$model,
+        ));
+    }
+
+    public function actionGetBrandModel(){
+        $brand = $_POST['brand'];
+        if ($brand) {
+            $model = CarModel::model()->findAllByAttributes(array('car_brand_id'=>$brand));
+
+            $items = array();
+            foreach ($model as $m) {
+                $items[] = '<option value="'.$m->id.'">'.$m->title.'</option>';
+            }
+            echo CJSON::encode($items);
+            Yii::app()->end();
+
+        } else {
+            echo "error";
+            Yii::app()->end();
         }
     }
 

@@ -19,3 +19,9 @@
 [submodule "protected/extensions/shared-core"]
 	path = protected/extensions/shared-core
 	url = https://github.com/alari/yii-shared-core.git
+[submodule "protected/modules/emailSender"]
+	path = protected/modules/emailSender
+	url = git@github.com:alari/yii-emailSender.git
+[submodule "protected/components/swiftmailer"]
+	path = protected/components/swiftmailer
+	url = git@github.com:alari/swiftmailer.git

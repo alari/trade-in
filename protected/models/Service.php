@@ -41,7 +41,9 @@ class Service extends BaseService implements ImagesHolderModel,IFormAdditionalFi
         $behaviors['imagesHolder'] = array(
             'class' => 'imagesHolder.models.ImagesHolderBehavior'
         );
-
+        $behaviors['activerecord-relation'] = array(
+            'class' => 'ext.yiiext.behaviors.activerecord-relation.EActiveRecordRelationBehavior',
+        );
         return $behaviors;
     }
 
