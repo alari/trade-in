@@ -1,1 +1,0 @@
-function getCookie(b){var c,a,e,d=document.cookie.split(";");for(c=0;c<d.length;c++){a=d[c].substr(0,d[c].indexOf("="));e=d[c].substr(d[c].indexOf("=")+1);a=a.replace(/^\s+|\s+$/g,"");if(a==b){return unescape(e)}}}function checkCookie(){var a=getCookie("uc");if(a!=null&&a!=""){return true}if($("ligh_box_popap")){$("ligh_box_popap").show()}};
