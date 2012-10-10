@@ -27,7 +27,11 @@ class Appliance extends BaseAppliance implements ImagesHolderModel,IFormAddition
     {
         $behaviors = parent::behaviors();
         $behaviors['imagesHolder'] = array(
-            'class' => 'imagesHolder.models.ImagesHolderBehavior'
+            'class' => 'imagesHolder.models.ImagesHolderBehavior',
+            'editViews' => array(
+                //'listHolder'=>'application.view.tradeIn._addImageForm'
+                'listHolder'=>'application.views.tradeIn._addImageForm'
+            ),
         );
 
         return $behaviors;

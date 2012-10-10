@@ -57,7 +57,7 @@ return array(
                         "tiny" => "152x130 thumb",
                     )
                 ),
-            )
+            ),
         ),
 
         'emailSender'=>array(

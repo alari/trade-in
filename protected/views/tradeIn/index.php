@@ -16,9 +16,10 @@ for($i=$startVolume;$i<=$endVolume;$i+=0.1){
 }
 
 $cs = Yii::app()->getClientScript();
-
+$cs->registerScriptFile('/files/load-image.min.js');
 $js = <<<EOP
 $(function(){
+
 
                             $.ajax({
                                     url: '/tradeIn/GetBrandModel',
@@ -53,20 +54,62 @@ $(function(){
 
                             });
     });
+
+
+    $('.removePreview').live('click',function(){
+        $(this).parent().html('');
+
+    });
+
+    //previev image upload
+       var prefixImageId = 'preview_';
+       var imageContainer = false;
+       var result = $('.well2'),
+        load = function (e) {
+            e = e.originalEvent;
+            e.preventDefault();
+            window.loadImage(
+                (e.dataTransfer || e.target).files[0],
+                function (img) {
+                    if(imageContainer){
+                        // img /// HTMLImageElement
+                        $('#'+prefixImageId+e.target.id).remove();
+                        img.id = prefixImageId+e.target.id;
+                        result.append(img);
+                    }else{
+                        var container = $('#'+prefixImageId+e.target.id);
+                        container.append(img);
+                        container.append('<span class="removePreview">x</span>');
+                    }
+
+                },
+                {
+                    maxWidth: 73,
+                    maxWidth: 73,
+                    //canvas: true //canvas or img
+
+                }
+            );
+        };
+
+    $('input[type="file"]').on('change', load);
+
 });
+
 EOP;
 // Register js code
 $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS_READY);
-
+ //ng-controller='MyController'
 ?>
 
-<div class="form">
+<div class="form" >
 
     <?php $form = $this->beginWidget('ext.shared-core.widgets.ExtForm', array(
     "model"=>$model,
     'id' => 'appliance-form',
     'enableAjaxValidation' => false,
 )); ?>
+
 
     <p class="note">Fields with <span class="required">*</span> are required.</p>
 
@@ -160,3 +203,6 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
     <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+
+<div class="well2" id="result">
+</div>
