@@ -203,6 +203,3 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
     <?php $this->endWidget(); ?>
 
 </div><!-- form -->
-
-<div class="well2" id="result">
-</div>
