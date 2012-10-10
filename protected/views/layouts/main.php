@@ -1,78 +1,75 @@
 <?php /* @var $this Controller */ ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+<meta charset="utf-8">
+	<meta name="language" content="ru" />
 
 	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 
-<div class="container" id="page">
-
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/tradeIn/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-            'itemCssClass' =>'li class',
-            'htmlOptions' => array(
-                'class'=>'ul class',
-            ),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
+<div class="front_car"></div>
+<div class="back_car"></div>
+<div class="bg_header">
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<a href="#"><img src="/assets/image/logo.png" /></a>
+			</div>
+			
+			<div class="menu">
+			<?php $this->widget('zii.widgets.CMenu',array(
+				'items'=>array(
+					array('label'=>'Главная', 'url'=>array('/tradeIn/index')),
+					array('label'=>'О нас', 'url'=>array('/site/page', 'view'=>'about')),
+					array('label'=>'Контакты', 'url'=>array('/site/contact')),
+					array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+					array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				),
+				'itemCssClass' =>'li class',
+				'htmlOptions' => array(
+					'class'=>'ul class',
+				),
+			)); ?>
+			</div><!-- mainmenu -->
+			<div class="clear"></div>
+			<div class="pusto">
+				Это пустой блок
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="content">
+		<?php echo $content; ?>
+	</div>
 	<div class="clear"></div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+	<div class="footer">
+		<?
+			$criteria = new CDbCriteria;
+			$criteria->join = 'LEFT JOIN tbl_held_image himg ON himg.holder_id = t.pic_holder_id';
+			$criteria->condition = 'himg.holder_id is not null';
+			$carBrands = CarBrand::model()->findAll($criteria);
+			shuffle($carBrands);
+			$i=0;
+			echo '<ul>';
+			foreach($carBrands as $brand){
+			  $image = $brand->picHolder->images[0];
+			  echo '<li>'.CHtml::image($image->getSrc('tiny'),$brand->title).'</li>';
+			  if(++$i == 10) break;
+			}
+			echo '</ul>';
+    	?>
 	</div><!-- footer -->
-
+	<div class="license">
+		<p>Компания "Тактика"</p> <a href="http://itaktika.ru" title="Компания Тактика"><img src="/assets/image/taktika_logo.png" alt="Компания Тактика" /></a>
+	</div>
 </div><!-- page -->
-<div align="center">
-    <?
-        $criteria = new CDbCriteria;
-        $criteria->join = 'LEFT JOIN tbl_held_image himg ON himg.holder_id = t.pic_holder_id';
-        $criteria->condition = 'himg.holder_id is not null';
-        $carBrands = CarBrand::model()->findAll($criteria);
-        shuffle($carBrands);
-        $i=0;
-
-        foreach($carBrands as $brand){
-          $image = $brand->picHolder->images[0];
-          echo '&nbsp;'.CHtml::image($image->getSrc('tiny'),$brand->title).'&nbsp;';
-          if(++$i == 10) break;
-        }
-    ?>
-</div>
 </body>
 </html>

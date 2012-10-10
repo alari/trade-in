@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/* RESET CSS */
+* {
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0;
+	padding:0;	
+}
+.clear {
+	clear:both;	
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+}
+body {
+	background:#f2f3f4;
+}
+img { 
+	border:none;
+}
+
+/* BODY */
+.bg_header {
+	border-top:5px solid #3f80ca;
+	width:100%;
+	height:527px;
+	background:url(../assets/image/bg_header.png) repeat-x;	
+}
+.front_car {
+	position:absolute;
+	z-index:1;
+	top:700px;
+	left:0;
+	width:215px;
+	height:270px;
+	background:url(../assets/image/front_car.png) no-repeat;
+}
+.back_car {
+	position:absolute;
+	z-index:2;
+	top:700px;
+	right:0;
+	width:208px;
+	height:185px;
+	background:url(../assets/image/back_car.png) no-repeat;
+}
+
+/* HEADER */
+.wrapper {
+	width:833px;
+	margin:0 auto;	
+}
+
+.header .logo {
+	float:left;
+}
+.header .logo img {
+	display:block;
+	border:none;
+	margin-top:-20px;	
+}
+.header ul {
+	margin-top:50px;
+	list-style:none;
+	display:block;
+	margin-left:250px;
+}
+.header ul li {
+	display:block;
+	float:left;
+	padding:0 20px;
+	height:34px;
+	line-height:34px;
+}
+.header ul li a {
+	text-decoration:none;
+	color:#3f80ca;
+	font-size:14px;
+	padding:9px 0 8px;
+}
+#yw1 .active a, #yw0 .active a {
+	color:#FFF;
+	background: url(../assets/image/header_menu_a.png) repeat-x;
+}
+.header ul li:hover a {
+	color:#FFF;
+	background: url(../assets/image/header_menu_a.png) repeat-x;
+}
+.header ul li:hover, .active {
+	background:url(../assets/image/header_menu_a_after.png) top right no-repeat, url(../assets/image/header_menu_a_before.png) top left no-repeat;
+}
+.pusto {
+	margin-top:50px;
+	height:280px;
+	width:100%;
+	outline:2px solid #CCC;	
+}
+
+/* CONTENT */
+.content {
+	width:100%;
+	border-radius:4px;
+	background:#FFF;
+	margin-top:-70px;
+	padding:25px 0;
+	border-bottom:3px solid #d9dadb;
+	position:relative;
+	z-index:3;
+	overflow:hidden;
+}
+.content h2 {
+	color:#4c88ce;
+	text-align:center;
+	font-size:20px;
+}
+.content form {
+	width:540px;
+	overflow:hidden;
+	margin:30px 0 0 50px;
+	float:left;
+}
+.content form input, .content form select {
+	width:200px;
+	border:1px solid #d9d9d9;
+	border-radius:4px;
+	height:22px;
+	line-height:15px;
+	padding-left:2px;
+	padding-left: 5px;
+	font-size:15px;
+}
+.content form select {
+	font-style:italic;
+	color:#9da1a6;
+	height:25px;
+}
+.content form select option {
+	margin:2px 0;
+	padding-left:5px;
+}
+.content form legend {
+	display:block;
+	font-size:14px;
+}
+.content form input[type="submit"] {
+	width:190px;
+	height:38px;
+	border-radius:4px;
+	border:1px solid #ffff33;
+	box-shadow:0 0 1px #e2b500;
+	background: url(../assets/image/bg-button.jpg) repeat-x;
+	color:#7d6c18;
+	text-shadow:0 1px 1px #FFF;
+	font-size:17px;
+	line-height:17px;
+	margin-left: 275px;
+}
+.content form .row {
+	width:260px;
+	float:left;
+	margin:5px 0;
+}
+.content form .row span {
+	font-size:12px;
+	color:#999999;
+	line-height:12px;
+}
+.star:after {
+	content:"*";
+	color:#3f80ca;
+	margin-left:2px;	
+}
+
+/* SIDEBAR */
+.sidebar {
+	margin:30px 0 0 600px;
+}
+.sidebar p {
+	font-size:14px;	
+}
+.sidebar .box {
+	display:block;
+	height:73px;
+	width:73px;
+	border:2px dashed #ccc;
+	margin:20px 0 20px 30px;
+	color:#86cf4a;
+	border-radius:4px;
+}
+
+/* FOOTER */
+.footer {
+	margin:20px 0;
+	border-radius:4px;
+	background-image: -o-linear-gradient(top, #ffffff, #ededed, #e8e8e8, #fefefe);
+	background-image: -moz-linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	background-image: -webkit-linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	background-image: linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	height:80px;
+	width:100%;
+	border-bottom:3px solid #d9dadb;
+}
+.footer ul {
+	display:block;
+	list-style:none;
+	margin:0 0 0 10px;	
+}
+.footer ul li {
+	display:inline;
+	float:left;
+	margin:18px 5px 0;	
+}
+
+/* LICENSE */
+.license p {
+	float:left;
+	display:inline;
+	margin:38px 10px 0 0;	
+}
+.license {
+	width:330px;
+	margin:0 auto 50px;
+	color:#637387;
+	font-size:10px;
+}
+.license img {
+	margin-top:30px;	
+}

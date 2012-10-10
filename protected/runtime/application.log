@@ -1102,3 +1102,1805 @@ Stack trace:
 #14 /home/egor/public_html/trade-in/protected/yiic.php(7): require_once()
 #15 /home/egor/public_html/trade-in/protected/yiic(4): require_once()
 
+2012/10/10 15:00:41 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:42 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:42 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:43 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:43 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:43 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:44 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:49 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:00:50 [error] [php] include(GxActiveRecord.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php(34): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(397): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#5 unknown(0): autoload()
+#6 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#7 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#12 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\_base\BaseAppliance.php (34)
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+2012/10/10 15:01:04 [error] [php] include(ImagesHolderModel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#8 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#9 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/10 15:01:05 [error] [php] include(ImagesHolderModel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#8 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#9 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/10 15:01:17 [error] [php] include(ImagesHolderModel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\trade-in.ru\www\framework\YiiBase.php:423)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\protected\models\Appliance.php(5): spl_autoload_call()
+#1 Y:\home\trade-in.ru\www\framework\YiiBase.php(423): include()
+#2 unknown(0): autoload()
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(98): spl_autoload_call()
+#4 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#8 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#9 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\models\Appliance.php (5)
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (98)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/10 15:01:46 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "Y:\home\trade-in.ru\www\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in Y:\home\trade-in.ru\www\framework\web\CAssetManager.php:128
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CAssetManager.php(113): CAssetManager->setBasePath('Y:\home\trade-i...')
+#1 Y:\home\trade-in.ru\www\framework\web\CAssetManager.php(235): CAssetManager->getBasePath()
+#2 Y:\home\trade-in.ru\www\framework\web\CClientScript.php(463): CAssetManager->publish('Y:\home\trade-i...')
+#3 Y:\home\trade-in.ru\www\framework\web\CClientScript.php(500): CClientScript->getCoreScriptUrl()
+#4 Y:\home\trade-in.ru\www\framework\web\CClientScript.php(316): CClientScript->getPackageBaseUrl('jquery')
+#5 Y:\home\trade-in.ru\www\framework\web\CClientScript.php(209): CClientScript->renderCoreScripts()
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(352): CClientScript->render('<!DOCTYPE html ...')
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(789): CController->processOutput('<!DOCTYPE html ...')
+#8 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(125): CController->render('index', Array)
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('index')
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/index')
+#15 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/8.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/8.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/35.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/35.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/28.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/28.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/17.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/17.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/9.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/9.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/18.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/18.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/28.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/28.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/19.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/19.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/25.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/25.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/21.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/21.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/33.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/33.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/31.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/31.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/7.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/7.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/7.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/7.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/5.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/5.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/31.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/31.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/30.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/30.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/15.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/15.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/2.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/2.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/37.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/37.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/4.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/4.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/18.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/18.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/5.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/5.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/30.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/30.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/24.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/24.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+---
+2012/10/10 15:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/24.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/24.png
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/18.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/18.png
+---
+2012/10/10 15:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/5.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/5.png
+---
+2012/10/10 15:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+---
+2012/10/10 15:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/24.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/24.png
+---
+2012/10/10 15:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+---
+2012/10/10 15:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+---
+2012/10/10 15:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+---
+2012/10/10 15:02:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/6.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/6.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/24.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/24.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/18.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/18.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/5.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/5.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+---
+2012/10/10 15:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/30.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/30.png
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/21.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/21.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/33.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/33.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/8.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/8.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/21.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/21.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/30.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/30.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/2.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/2.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/5.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/5.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/24.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/24.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/34.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/34.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/39.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/39.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/16.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/16.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/19.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/19.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/15.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/15.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/4.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/4.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/35.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/35.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+---
+2012/10/10 15:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+---
+2012/10/10 15:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/19.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/19.png
+---
+2012/10/10 15:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+---
+2012/10/10 15:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+---
+2012/10/10 15:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+---
+2012/10/10 15:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/15.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/15.png
+---
+2012/10/10 15:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+---
+2012/10/10 15:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/35.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/35.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/15.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/15.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/23.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/23.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/27.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/27.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/26.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/26.png
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/21.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/21.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/11.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/11.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/2.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/2.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/16.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/16.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/20.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/20.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/33.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/33.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/13.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/13.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/29.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/29.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pic/tiny/1.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/pic/tiny...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/pic/tiny/1.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:11:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_header.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg_header.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/front...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/back_...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/front...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_header.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg_header.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/back_...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/back_...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_header.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg_header.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/front...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/front...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_header.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg_header.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/back_...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_header.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg_header.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg-button.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/bg-bu...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/bg-button.jpg
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/front...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/back_...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/header_menu_a_before.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/heade...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/header_menu_a_before.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/header_menu_a_after.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/heade...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/header_menu_a_after.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/header_menu_a.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/image/heade...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/image/header_menu_a.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/fr...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ba...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/fr...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ba...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ba...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/front_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/fr...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/front_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/back_car.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ba...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/back_car.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/10 15:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/logo.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('image/taktika_l...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:48:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 15:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 16:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:09:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:10:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 16:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 16:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

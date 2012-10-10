@@ -101,95 +101,90 @@ EOP;
 $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS_READY);
  //ng-controller='MyController'
 ?>
-
-<div class="form" >
+	<h2>Заполните форму и получите предложения от салонов</h2>
 
     <?php $form = $this->beginWidget('ext.shared-core.widgets.ExtForm', array(
     "model"=>$model,
-    'id' => 'appliance-form',
     'enableAjaxValidation' => false,
 )); ?>
-
-
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
 
     <?php echo $form->errorSummary($model); ?>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'email'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'email'); ?></legend>
         <?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>200)); ?>
         <?php echo $form->error($model,'email'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'car_brand_id'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'car_brand_id'); ?></legend>
         <?php echo $form->dropDownList($model, 'car_brand_id',
         CHtml::listData(CarBrand::model()->findAll(), 'id', 'title'),array('class'=>'carBrand')); ?>
         <?php echo $form->error($model,'car_brand_id'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'car_model_id'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'car_model_id'); ?></legend>
         <?php echo $form->dropDownList($model, 'car_model_id', array('Модель'),array('class'=>'carModel') ); ?>
         <?php echo $form->error($model,'car_model_id'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'color'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'color'); ?></legend>
         <?php echo $form->textField($model,'color',array('size'=>60,'maxlength'=>100)); ?>
         <?php echo $form->error($model,'color'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'mileage'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'mileage'); ?></legend>
         <?php echo $form->textField($model,'mileage'); ?>
         <?php echo $form->error($model,'mileage'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'salon'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'salon'); ?></legend>
         <?php echo $form->dropDownList($model, 'salon', Yii::app()->params['appliance']['form']['salon']); ?>
         <?php echo $form->error($model,'salon'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'condition'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'condition'); ?></legend>
         <?php echo $form->dropDownList($model, 'condition', Yii::app()->params['appliance']['form']['condition']); ?>
         <?php echo $form->error($model,'condition'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'year'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'year'); ?></legend>
         <?php echo $form->dropDownList($model, 'year', $years); ?>
         <?php echo $form->error($model,'year'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'engine'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'engine'); ?></legend>
         <?php echo $form->dropDownList($model, 'engine', Yii::app()->params['appliance']['form']['engine']); ?>
         <?php echo $form->error($model,'engine'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'volume'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'volume'); ?></legend>
         <?php echo $form->dropDownList($model, 'volume', $volumes); ?>
         <?php echo $form->error($model,'volume'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'gearbox'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'gearbox'); ?></legend>
         <?php echo $form->dropDownList($model, 'gearbox', Yii::app()->params['appliance']['form']['gearbox']); ?>
         <?php echo $form->error($model,'gearbox'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'transmission'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'transmission'); ?></legend>
         <?php echo $form->dropDownList($model, 'transmission', Yii::app()->params['appliance']['form']['transmission']); ?>
         <?php echo $form->error($model,'transmission'); ?>
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'desired_price'); ?>
+        <legend class="star"><?php echo $form->labelEx($model,'desired_price'); ?></legend>
         <?php echo $form->textField($model,'desired_price',array('size'=>60,'maxlength'=>200)); ?>
         <?php echo $form->error($model,'desired_price'); ?>
     </div>
@@ -197,9 +192,8 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
     <?$form->inject()?>
 
     <div class="row buttons">
-        <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Отправить заявку' : 'Save'); ?>
     </div>
 
     <?php $this->endWidget(); ?>
 
-</div><!-- form -->
