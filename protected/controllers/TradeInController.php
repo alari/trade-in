@@ -86,7 +86,7 @@ class TradeInController extends Controller
             $model = Negotiation::model()->findByAttributes(array("hash"=>$hash));
             if($model->status == 'wait'){
                 $formService = new DenialForm();
-                $this->render('denialForm',array('formService' => $formService));
+                $this->render('denialForm',array('formService' => $formService,'model'=>$model));
             }else{
                 $this->render('negotiationClosed');
             }

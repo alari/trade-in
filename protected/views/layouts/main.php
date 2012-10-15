@@ -2,55 +2,45 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="language" content="ru" />
-
 	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
-
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
-
 <body>
 
-<div class="front_car"></div>
-<div class="back_car"></div>
-<div class="bg_header">
-	<div class="wrapper">
-		<div class="header">
-			<div class="logo">
-				<a href="#"><img src="/assets/image/logo.png" /></a>
-			</div>
-			
-			<div class="menu">
-			<?php $this->widget('zii.widgets.CMenu',array(
-				'items'=>array(
-					array('label'=>'Главная', 'url'=>array('/tradeIn/index')),
-					array('label'=>'О нас', 'url'=>array('/site/page', 'view'=>'about')),
-					array('label'=>'Контакты', 'url'=>array('/site/contact')),
-					array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-					array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-				),
-				'itemCssClass' =>'li class',
-				'htmlOptions' => array(
-					'class'=>'ul class',
-				),
-			)); ?>
-			</div><!-- mainmenu -->
-			<div class="clear"></div>
-			<div class="pusto">
-				ываыва
-			</div>
-		</div>
-	</div>
-</div>
-<div class="wrapper">
-	<div class="content">
+<div class="l_body_frontcar"></div>
+<div class="l_body_backcar"></div>
+
+<div class="l_header">
+	<div class="b_header__logo left">
+		<a href="#"><img src="/image/logo.png" /></a>
+	</div><!--b_header__menu-->
+	<?php $this->widget('zii.widgets.CMenu',array(
+		'items'=>array(
+			array('label'=>'Главная', 'url'=>array('/tradeIn/index')),
+			array('label'=>'О нас', 'url'=>array('/site/page', 'view'=>'about')),
+			array('label'=>'Контакты', 'url'=>array('/site/contact')),
+			array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+			array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+		),
+		'itemCssClass' =>'b_header__menu__item',
+		'htmlOptions' => array(
+			'class'=>'b_header__menu',
+		),
+	)); ?>
+	<!--b_header__menu-->
+	<div class="clear"></div>
+</div><!--l_header-->
+<div class="l_wrapper">
+
 		<?php echo $content; ?>
-	</div>
+		
 	<div class="clear"></div>
 
-	<div class="footer">
+	<div class="l_footer">
 		<?
 			$criteria = new CDbCriteria;
 			$criteria->join = 'LEFT JOIN tbl_held_image himg ON himg.holder_id = t.pic_holder_id';
@@ -58,18 +48,18 @@
 			$carBrands = CarBrand::model()->findAll($criteria);
 			shuffle($carBrands);
 			$i=0;
-			echo '<ul>';
+			echo '<ul class="b_footer_randomList">';
 			foreach($carBrands as $brand){
 			  $image = $brand->picHolder->images[0];
-			  echo '<li>'.CHtml::image($image->getSrc('tiny'),$brand->title).'</li>';
+			  echo '<li class="b_footer_randomList__item">'.CHtml::image($image->getSrc('tiny'),$brand->title).'</li>';
 			  if(++$i == 10) break;
 			}
 			echo '</ul>';
     	?>
-	</div><!-- footer -->
-	<div class="license">
-		<p>Компания "Тактика"</p> <a href="http://itaktika.ru" title="Компания Тактика"><img src="/assets/image/taktika_logo.png" alt="Компания Тактика" /></a>
-	</div>
-</div><!-- page -->
+	</div><!--l_footer-->
+	<div class="l_license">
+		<p class="b_license__p">Компания "Тактика"</p> <a href="http://itaktika.ru" title="Компания Тактика"><img src="/image/taktika_logo.png" alt="Компания Тактика" /></a>
+	</div><!--l_license-->
+</div><!--l_wrapper-->
 </body>
 </html>

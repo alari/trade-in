@@ -5182,3 +5182,886 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://trade-in.ru/update-account/user5076d0d16d384?class=fucke
 ---
+2012/10/15 11:44:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:44:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/site/page?view=about
+---
+2012/10/15 11:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/site/page?view=about
+---
+2012/10/15 11:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/site/contact
+---
+2012/10/15 11:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/site/contact
+---
+2012/10/15 11:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/
+---
+2012/10/15 11:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/
+---
+2012/10/15 11:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/site/login
+---
+2012/10/15 11:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/site/login
+---
+2012/10/15 11:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/15 11:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 11:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/lo...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in Y:\home\trade-in.ru\www\framework\web\CController.php:484
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/index.p...')
+#3 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tradeIn/index.php
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index.php
+---
+2012/10/15 12:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('index')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/index
+---
+2012/10/15 12:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:43:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/site/page?view=about
+---
+2012/10/15 12:44:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/15 12:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/15 12:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/header_menu_a_after.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/header_menu_a_after.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/15 12:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/header_menu_a_before.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/header_menu_a_before.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/15 12:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/header_menu_a_after.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/header_menu_a_after.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/15 12:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/header_menu_a_before.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/he...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/header_menu_a_before.png
+HTTP_REFERER=http://trade-in.ru/css/style.css
+---
+2012/10/15 12:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:55:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 12:59:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:00:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/image/taktika_logo.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/image/ta...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/image/taktika_logo.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/15 13:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/15 13:57:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/15 15:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/15 17:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/service5076d0d1c5531
+---

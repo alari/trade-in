@@ -1,3 +1,4 @@
+<div class="l_content">
 <div class="service">
 <?php
 /* @var $this ServiceController */
@@ -7,7 +8,7 @@ $this->breadcrumbs=array(
 	'Services'=>array('index'),
 	$model->id,
 );
-
+/*
 $this->menu=array(
 	array('label'=>'List Service', 'url'=>array('index')),
 	array('label'=>'Create Service', 'url'=>array('create')),
@@ -15,7 +16,7 @@ $this->menu=array(
 	array('label'=>'Delete Service', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Service', 'url'=>array('admin')),
 );
-
+*/
 $cs = Yii::app()->getClientScript();
 $cs->registerScriptFile('http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU');
 $js = <<<EOP
@@ -61,18 +62,18 @@ EOP;
 $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_READY);
 ?>
 
-<h1>View Service #<?php echo $model->id; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-        'title',
-		'email',
-		'phone',
-		'address',
-	),
-)); ?>
+			
+<?php 
+	$image = $model->picHolder->images[0];
+	echo CHtml::image($image->getSrc('tiny'),$brand->title);
+?>
 
-<div id="map" style="width: 400px; height: 300px"></div>
-</div>
+
+
+	<? echo $model->title; ?>
+	<? echo $model->address; ?>
+	<? echo $model->phone; ?>
+	<div id="map" style="width: 400px; height: 300px"></div>
+	</div>
+	</div>

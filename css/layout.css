@@ -1,0 +1,119 @@
+/* LAYOUT DOCUMENT */
+
+/*CSS RESET */
+* {
+	margin:0;
+	padding:0;	
+}
+.clear {
+	clear:both;	
+}
+img { 
+	border:none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+}
+
+/* BODY */
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background:url(../image/bg_header.png) repeat-x top left, #f2f3f4;
+	border-top:5px solid #3f80ca;
+}
+
+/* MODIFICATOR*/
+.left {
+	float:left;	
+}
+.right {
+	float:right;	
+}
+
+/* CAR */
+.l_body_frontcar {
+	width:215px;
+	height:170px;
+	background:url(../image/front_car.png) no-repeat;
+	position:absolute;
+	top:700px;
+	left:0;
+	z-index:1;
+}
+.l_body_backcar {
+	width:208px;
+	height:185px;
+	background:url(../image/back_car.png) no-repeat;
+	position:absolute;
+	top:700px;
+	right:0;
+	z-index:1;
+}
+
+/* HEADER */
+.l_header {
+	width:833px;
+	margin:37px auto 50px;	
+}
+
+/* CONTENT */
+.l_wrapper {
+	width:833px;
+	margin:0 auto;	
+}
+.l_content {
+	width:100%;
+	border-radius:4px;
+	background:#FFF;
+	padding:25px 0;
+	border-bottom:3px solid #d9dadb;
+	position:relative;
+	z-index:3;
+}	
+
+/* FOOTER */
+.l_footer {
+	margin:20px 0;
+	border-radius:4px;
+	background-image: -o-linear-gradient(top, #ffffff, #ededed, #e8e8e8, #fefefe);
+	background-image: -moz-linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	background-image: -webkit-linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	background-image: linear-gradient(top, #ffffff, #ededed, #ececec, #fefefe);
+	height:80px;
+	width:100%;
+	border-bottom:3px solid #d9dadb;
+}
+
+/* LICENSE */
+.l_license {
+	width:330px;
+	margin:0 auto 50px;
+	color:#637387;
+	font-size:10px;	
+}
+/* INPUT TEXT SELECT */
+input[type="text"], select {
+	width:200px;
+	border:1px solid #d9d9d9;
+	border-radius:4px;
+	height:22px;
+	line-height:15px;
+	padding-left:2px;
+	padding-left: 5px;
+	font-size:15px;
+}
+select {
+	font-style:italic;
+	color:#9da1a6;
+	height:25px;
+	width:210px;	
+}
+select option {
+	margin:2px 0;
+	padding-left:5px;	
+}
+/* required */
+span.required {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#3f80ca;
+}
