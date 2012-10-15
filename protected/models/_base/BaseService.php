@@ -40,9 +40,9 @@ abstract class BaseService extends GxActiveRecord {
 			array('title, email', 'required'),
 			array('phone', 'numerical', 'integerOnly'=>true),
 			array('title, email', 'length', 'max'=>200),
-			array('address', 'safe'),
+			array('address , description', 'safe'),
 			array('phone, address', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('id, title, email, phone, address', 'safe', 'on'=>'search'),
+			array('id, title, email, phone, address, description', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,6 +65,7 @@ abstract class BaseService extends GxActiveRecord {
 			'email' => Yii::t('app', 'Email'),
 			'phone' => Yii::t('app', 'Phone'),
 			'address' => Yii::t('app', 'Address'),
+            'description' => Yii::t('app', 'Description'),
 			'tblCarBrands' => null,
 		);
 	}
