@@ -141,6 +141,13 @@ class SiteController extends Controller
 
     }
 
+    public function actionReSaveCarBrand(){
+
+        foreach(CarBrand::model()->findAll() as $carBrand){
+            $carBrand->save();
+        }
+    }
+
     public function actionAddMarks(){
         $marks = array(
             "Alfa Romeo" => "Alfa Romeo",
@@ -236,22 +243,18 @@ class SiteController extends Controller
                 curl_setopt($curl, CURLOPT_POSTFIELDS, "comission_brand=".$brand['title']);
                 $out = curl_exec($curl);
                 $html = str_get_html($out);
-                //echo $out;
+
                 curl_close($curl);
 
-                //$html->find('select[name="comission_model"]')->innertext;
                 foreach($html->find('select[name="comission_model"]') as $e){
                     foreach($e->find('option') as $option){
                         $model = new CarModel();
                         $model->title = $option->value;
                         $model->car_brand_id = $brand['id'];
                         $model->save();
-                        //echo $option->value.'<br>';
                     }
                 }
-                //echo $html;
 
-                //print_r($model);
 
             }
         }

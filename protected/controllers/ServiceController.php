@@ -149,11 +149,15 @@ class ServiceController extends Controller
 	 * @param integer the ID of the model to be loaded
 	 */
 	public function loadModel($id)
-	{
-		$model=Service::model()->findByPk($id);
-		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
-		return $model;
+    {
+            if (is_numeric($id)) {
+                $model = Service::model()->findByPk($id);
+            } else {
+                $model = Service::model()->findByPath($id);
+            }
+            if ($model === null)
+                throw new CHttpException(404, 'The requested page does not exist.');
+            return $model;
 	}
 
 	/**

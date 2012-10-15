@@ -54,7 +54,7 @@ return array(
                     'default' => 'big',
                     'sizes' => array(
                         "big" => "800x600",
-                        "tiny" => "152x130 thumb",
+                        "tiny" => "148x148 thumb",
                     )
                 ),
             ),
@@ -90,6 +90,10 @@ return array(
                 'update-account/<hash:[\w\-]+>' => 'tradeIn/accountUpdate',
                 'account/<hash:[\w\-]+>' => 'tradeIn/account',
                 'denial/<hash:[\w\-]+>' => 'tradeIn/denial',
+
+                'services/<carBrand:[\w\-]+>' => 'tradeIn/getServices',
+                'services/' => 'tradeIn/getServices',
+                'autosalon/<id:[\w\-]+>' => 'service/view',
 
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -134,7 +138,10 @@ return array(
 
         'imagine' => array(
             'class' => "ext.imagine.ImagineYii"
-        )
+        ),
+        'i18n2ascii' => array(
+            'class' => 'application.extensions.i18n2ascii.I18n2ascii'
+        ),
 	),
 
 	// application-level parameters that can be accessed

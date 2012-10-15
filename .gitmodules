@@ -25,3 +25,6 @@
 [submodule "protected/components/swiftmailer"]
 	path = protected/components/swiftmailer
 	url = git@github.com:alari/swiftmailer.git
+[submodule "protected/extensions/i18n2ascii"]
+	path = protected/extensions/i18n2ascii
+	url = git://github.com/alari/yii-i18n2ascii.git
