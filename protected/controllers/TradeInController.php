@@ -104,7 +104,7 @@ class TradeInController extends Controller
         {
             $model->attributes=$_POST['Appliance'];
             if($model->save()){
-                //Yii::app()->getModule("emailSender")->send($model->email, 'user', '<a href="http://tradein.e.dev/account/'.$model->hash.'" >Личный кабинет</a>');
+
                 foreach($model->carBrand->services as $service){
                     $negotiation = new Negotiation();
                     $negotiation->hash = uniqid('service');
@@ -113,7 +113,6 @@ class TradeInController extends Controller
                     $negotiation->appliance_id = $model->id;
                     $negotiation->status = 'wait';
                     $negotiation->save();
-                    //Yii::app()->getModule("emailSender")->send($negotiation->service->email, 'servise', '<a href="http://tradein.e.dev/account/'.$negotiation->hash.'" >Посмотреть новую заявку</a>');
                 }
 
                 $this->redirect(array('tradeIn/account','hash'=>$model->hash));
@@ -160,6 +159,29 @@ class TradeInController extends Controller
             echo "error";
             Yii::app()->end();
         }
+    }
+
+    public function actionGetServices($carBrand = 'all'){
+
+        if($carBrand!='all'){
+
+            $carBrandModel = CarBrand::model()->findByAttributes(array('path'=>$carBrand));
+
+            $criteria = new CDbCriteria;
+            $criteria->join = 'JOIN {{car_brand_to_service}} on t.id={{car_brand_to_service}}.service_id';
+            $criteria->condition = 'car_brand_id='. $carBrandModel->id ;
+
+            $services = Service::model()->findAll($criteria);
+        }else{
+            $services = Service::model()->findAll();
+        }
+
+        $carBrands = CarBrand::model()->findAll();
+
+        $this->render('listServices',array(
+            'models'=>$services,
+            'carBrands' => $carBrands,
+        ));
     }
 
 }

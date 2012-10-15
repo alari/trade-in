@@ -49,4 +49,24 @@ class CarBrand extends BaseCarBrand implements ImagesHolderModel,IFormAdditional
         return $additionalFields;
     }
 
+    public function beforeSave()
+    {
+        if(Yii::app()->getComponent("i18n2ascii")) {
+            Yii::app()->getComponent("i18n2ascii")->setModelUrlAlias($this, $this->title);
+        }
+        return true;
+    }
+
+    public function url($normalize = true)
+    {
+        $u = array('tradeIn/getServices', "carBrand" => $this->path ? $this->path : $this->id);
+
+        return $normalize ? CHtml::normalizeUrl($u) : $u;
+    }
+
+    public function findByPath($path)
+    {
+        return $this->findByAttributes(array("path" => $path));
+    }
+
 }

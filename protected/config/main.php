@@ -91,6 +91,10 @@ return array(
                 'account/<hash:[\w\-]+>' => 'tradeIn/account',
                 'denial/<hash:[\w\-]+>' => 'tradeIn/denial',
 
+                'services/<carBrand:[\w\-]+>' => 'tradeIn/getServices',
+                'services/' => 'tradeIn/getServices',
+                'autosalon/<id:[\w\-]+>' => 'service/view',
+
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
@@ -134,7 +138,10 @@ return array(
 
         'imagine' => array(
             'class' => "ext.imagine.ImagineYii"
-        )
+        ),
+        'i18n2ascii' => array(
+            'class' => 'application.extensions.i18n2ascii.I18n2ascii'
+        ),
 	),
 
 	// application-level parameters that can be accessed

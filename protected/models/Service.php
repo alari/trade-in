@@ -47,9 +47,29 @@ class Service extends BaseService implements ImagesHolderModel,IFormAdditionalFi
         return $behaviors;
     }
 
+    public function beforeSave()
+    {
+        if(Yii::app()->getComponent("i18n2ascii")) {
+            Yii::app()->getComponent("i18n2ascii")->setModelUrlAlias($this, $this->title);
+        }
+        return true;
+    }
+
     public function additionalFields(){
         //$additionalFields = parent::additionalFields();
 
         return $additionalFields;
+    }
+
+    public function url($normalize = true)
+    {
+        $u = array('service/view', "id" => $this->path ? $this->path : $this->id);
+
+        return $normalize ? CHtml::normalizeUrl($u) : $u;
+    }
+
+    public function findByPath($path)
+    {
+        return $this->findByAttributes(array("path" => $path));
     }
 }
