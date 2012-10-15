@@ -2904,3 +2904,2281 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/10/10 18:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/10 18:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 18:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 18:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 18:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/10 18:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 11:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/11 11:30:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 11:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 12:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 12:50:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 13:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:06:35 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php:85)
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php(140): renderAttributes()
+#1 Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php(1135): tag()
+#2 Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php(612): inputField()
+#3 Y:\home\trade-in.ru\www\protected\views\tradeIn\_addImageForm.php(14): fileField()
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(131): require()
+#5 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): EditImages->renderInternal()
+#6 Y:\home\trade-in.ru\www\framework\web\widgets\CWidget.php(244): EditImages->renderFile()
+#7 Y:\home\trade-in.ru\www\protected\modules\imagesHolder\widgets\heldImages\EditImages.php(38): EditImages->render()
+#8 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(174): EditImages->run()
+#9 Y:\home\trade-in.ru\www\protected\modules\imagesHolder\models\ImagesHolderBehavior.php(59): TradeInController->widget()
+#10 Y:\home\trade-in.ru\www\protected\extensions\shared-core\widgets\ExtForm.php(37): ImagesHolderBehavior->formInjectInside()
+#11 Y:\home\trade-in.ru\www\protected\views\tradeIn\index.php(196): ExtForm->inject()
+#12 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require()
+#13 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): TradeInController->renderInternal()
+#14 Y:\home\trade-in.ru\www\framework\web\CController.php(870): TradeInController->renderFile()
+#15 Y:\home\trade-in.ru\www\framework\web\CController.php(783): TradeInController->renderPartial()
+#16 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(125): TradeInController->render()
+#17 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): TradeInController->actionIndex()
+#18 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#19 Y:\home\trade-in.ru\www\framework\web\CController.php(287): TradeInController->runAction()
+#20 Y:\home\trade-in.ru\www\framework\web\CController.php(266): TradeInController->runActionWithFilters()
+#21 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): TradeInController->run()
+#22 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#23 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 Y:\home\trade-in.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in Y:\home\trade-in.ru\www\protected\views\tradeIn\_addImageForm.php (14)
+in Y:\home\trade-in.ru\www\protected\modules\imagesHolder\widgets\heldImages\EditImages.php (38)
+in Y:\home\trade-in.ru\www\protected\modules\imagesHolder\models\ImagesHolderBehavior.php (59)
+2012/10/11 13:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:07:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:11:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 13:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 13:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 15:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "image".' in Y:\home\trade-in.ru\www\framework\web\CController.php:484
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CController.php(271): CController->missingAction('image')
+#1 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('image')
+#2 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/image/c...')
+#3 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tradeIn/image/close-button.png
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/11 15:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "image".' in Y:\home\trade-in.ru\www\framework\web\CController.php:484
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CController.php(271): CController->missingAction('image')
+#1 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('image')
+#2 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/image/c...')
+#3 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tradeIn/image/close-button.png
+---
+2012/10/11 15:25:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 15:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 15:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:36:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:36:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 16:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 17:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:23:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:38:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/denial/service5076d0d1c5531
+---
+2012/10/11 18:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 18:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 18:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/11 18:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 18:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/11 19:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/index.php
+---
+2012/10/12 10:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/12 10:22:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 11:31:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/12 12:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 13:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/12 13:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 13:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 13:53:53 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in Y:\home\trade-in.ru\www\framework\zii\widgets\CDetailView.php:181
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(174): CDetailView->run()
+#1 Y:\home\trade-in.ru\www\protected\views\service\view.php(74): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#4 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Y:\home\trade-in.ru\www\protected\controllers\ServiceController.php(56): CController->render('view', Array)
+#7 [internal function]: ServiceController->actionView('1')
+#8 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Y:\home\trade-in.ru\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Y:\home\trade-in.ru\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Y:\home\trade-in.ru\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Y:\home\trade-in.ru\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Y:\home\trade-in.ru\www\framework\web\CController.php(292): CFilterChain->run()
+#17 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('view')
+#19 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('service/view')
+#20 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/service/1
+HTTP_REFERER=http://trade-in.ru/service/update/1
+---
+2012/10/12 13:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 13:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/facebook.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/face...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/facebook.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/vk.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/vk.j...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/vk.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/twitter.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/twit...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/twitter.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/close_button.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/close_butto...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/close_button.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/facebook.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/face...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/facebook.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/twitter.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/twit...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/twitter.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/facebook.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/face...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/facebook.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/img/vk.jpg".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('static/img/vk.j...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/img/vk.jpg
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/close_button.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/close_butto...')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/close_button.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:40:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:44:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/angle.png".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('img/angle.png')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/angle.png
+HTTP_REFERER=http://trade-in.ru/css/modal.css
+---
+2012/10/12 14:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 14:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:01:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/modal.css".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('css/modal.css')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/modal.css
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 15:38:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 16:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 16:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/12 16:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/12 17:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/site/login
+---
+2012/10/12 17:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/site/login
+---
+2012/10/15 10:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/update-account/user5076d0d16d384?class=fucke
+---
+2012/10/15 10:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/15 10:53:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/update-account/user5076d0d16d384?class=fucke
+---

@@ -66,15 +66,14 @@ EOP;
 $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_READY);
 
 ?>
-
-  <? echo CHtml::link('Изменить анкету',array('tradeIn/accountUpdate','hash'=>$model->hash))?>
-<? if (isset($modelNegotiations['tender'])) {?>
-    <br><br>
-        Предложения для вас:
-    <table>
+<div class="b-account">
+<!--  <? echo CHtml::link('Изменить анкету',array('tradeIn/accountUpdate','hash'=>$model->hash), array("class"=>"b-account_content_link"))?>
+<? if (isset($modelNegotiations['tender'])) {?>-->
+        <span class="b-account__span">Предложения для вас:</span>
+	<table class="b-account_table">
         <thead>
 
-            <th>
+            <th class="b-account_table__thead_tr">
                 Салон
             </th>
             <th>
@@ -92,7 +91,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 
         </thead>
     <?foreach ($modelNegotiations['tender'] as $negotiation) { ?>
-        <tr>
+        <tr class="b-account_table__tbody_tr">
 
             <td>
                 <? if(count($negotiation->service->picHolder->images)){
@@ -102,17 +101,15 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
                 } ?>
                 <? echo $negotiation->service->title;?>
             </td>
-            <td>
+            <td class="b-account_table__td__absolute">
                 <? echo $negotiation->service->address;?>
-                <br>
                 <span class="getMap" salon-address="<? echo $negotiation->service->address;?>" salon-id="<? echo $negotiation->service->id;?>" salon-name="<? echo $negotiation->service->title;?>">
-                    показать на карте
+                    <span class="viewmap">показать на карте</span>
                 </span>
-                <br>
+				<br>
                 <? //echo $negotiation->service->phone;?>
                 <? echo number_format($negotiation->service->phone,0,'.','-');?>
-                <div class="map-block">
-                    <div id="<? echo $negotiation->service->id;?>" class="closeMap">X</div>
+                <div class="map-block" style="display: none;">
                     <div id="map<? echo $negotiation->service->id;?>" style="width: 400px; height: 300px"></div>
                 </div>
             </td>
@@ -136,12 +133,10 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
     <? }?>
     </table>
 <? } ?>
-
-
+<div class="b-account_bottom">
 <? if (isset($modelNegotiations['denial'])) {?>
-    <br><br>
-    Отказы:
-    <table>
+    <span class="b-account_bottom__span">Отказы:</span>
+    <table class="b-account_bottom__table">
         <thead>
 
         <th>
@@ -165,7 +160,6 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
                 <? echo (($negotiation->disrepair == 1) ? $translate['disrepair'].'<br>' : '' ); ?>
                 <? echo (($negotiation->unliquidated == 1) ? $translate['unliquidated'].'<br>' : '' ); ?>
                 <? echo (($negotiation->inappropriate == 1) ? $translate['inappropriate'].'<br>' : '' ); ?>
-                <br>
                 <? echo $negotiation->comment;?>
             </td>
 
@@ -174,3 +168,5 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
         <? }?>
     </table>
 <? } ?>
+</div>
+</div>

@@ -142,7 +142,7 @@ img {
 	display:block;
 	font-size:14px;
 }
-.content form input[type="submit"] {
+.content input[type="submit"] {
 	width:190px;
 	height:38px;
 	border-radius:4px;
@@ -153,7 +153,7 @@ img {
 	text-shadow:0 1px 1px #FFF;
 	font-size:17px;
 	line-height:17px;
-	margin-left: 275px;
+	margin-left: 315px;
 }
 .content form .row {
 	width:260px;
@@ -173,6 +173,35 @@ img {
 
 /* SIDEBAR */
 .sidebar {
+	position:relative;
+	z-index:1;
+}
+.sidebar .row {
+	height:73px;
+	margin:15px 0 15px 20px;	
+}
+.sidebar .upload-box {
+	display: none;
+}
+.repeat {
+	position:relative;
+	top:-81px;	
+}
+.removePreview {
+	position:relative;
+	top:-65px;
+	right:15px;
+	z-index:3;	
+}
+.sidebar img[src^="blob"] {
+	position:relative;
+	z-index:2;
+	border-radius:11px;
+	border:3px solid #57aae5;
+	height:73px;
+	width:73px;
+}
+.sidebar {
 	margin:30px 0 0 600px;
 }
 .sidebar p {
@@ -187,6 +216,10 @@ img {
 	color:#86cf4a;
 	border-radius:4px;
 }
+.sidebar fieldset {
+	border:none;	
+}
+
 
 /* FOOTER */
 .footer {
@@ -225,4 +258,150 @@ img {
 }
 .license img {
 	margin-top:30px;	
+}
+
+/*Denial Form*/
+#Service-form {
+	width:100%;	
+}
+.denialform-h3 {
+	font-size:15px;
+	color:#4c88ce;
+	display:block;
+	margin-bottom:30px;
+}
+.denial-form_content {
+	font-size:14px;
+}
+.denial-form_content div{
+	margin:10px 0;
+}
+.denial-form_content input[type="checkbox"]{
+	width:20px;
+	height:20px;
+}
+.e-form-label__texarea {
+	margin:20px 0 10px;
+	display:block;
+}
+.denial-form_content textarea {
+	width:450px;
+	height:150px;
+	border-radius:4px;
+	border:1px solid #d9d9d9;
+	padding:5px;	
+}
+
+/* ACCOUNT PAGE*/
+.b-account_table {
+	width:101%;
+	font-size:13px;
+	text-align:center;
+}
+.b-account_table thead{
+	color:#FFF;
+	background:#3f80ca;	
+}
+.b-account_table__tbody_tr td {
+	border-right:1px solid #d9d9d9;
+	border-bottom:1px dashed #d9d9d9;	
+}
+.b-account_table__td__absolute {
+	position:relative;	
+}
+.map-block {
+	position:absolute;
+	top:150px;
+	left:64px;
+	border-radius:5px;
+	border:3px solid #3f80ca;
+	z-index:2;
+}
+.b-account_bottom__span {	
+	color:#3f80ca;
+	text-decoration:none;
+	display:block;
+	margin:25px;
+}
+.b-account_bottom__table {
+	margin-left:25px;	
+}
+.b-account_bottom__table thead{
+	color:#FFF;
+	background:#3f80ca;
+}
+.b-account_bottom__table thead th {
+	padding:0 15px;
+}
+.b-account_bottom__table tbody {
+	color:#9da1a6;
+	text-align:center;
+}
+.b-account_bottom__table tbody td {
+	border-bottom:1px dashed #d9d9d9;
+
+	border-left:1px solid #d9d9d9;
+	padding:10px;
+	min-width:120px;
+	min-height:30px;	
+}
+.viewmap {
+	font-size:14px;
+	color:#3f80ca;
+	font-style:italic;
+	border-bottom:1px dashed #3f80ca;	
+}
+/* UPDATE ACCOUNT*/
+.b-account_content_link {
+	color:#3f80ca;
+	text-decoration:none;
+	display:block;
+	margin-left:25px;	
+}
+.b-updateAccount a {
+	color:#3f80ca;
+	text-decoration:none;
+	display:block;
+	margin-left:25px;
+}
+.b-upadteAccount_form .row {
+	width:230px; float:left; min-height:75px;
+}
+.b-upadteAccount_form .row label {
+	display:block;	
+}
+.b-upadteAccount_form fieldset {
+	border:none;	
+}
+.b-updateAccount .sidebar .row input[type="file"], .b-updateAccount .sidebar .row input[type="text"], .b-updateAccount .sidebar .row input[type="checkbox"] {
+	display:none;	
+}
+.b-account__span {
+	color:#3f80ca;
+	text-decoration:none;
+	display:block;
+	margin:0 0 25px 25px;	
+}
+/*PORTLET PAGE*/
+.service #map {
+	margin:10px;	
+}
+.service h1 {
+	color:#3f80ca;
+	display:block;
+	margin:10px 0 25px 25px;
+}
+.portlet {
+	margin:25px 0 0 25px;
+}
+.portlet-content ul{
+	list-style-type:none;
+	margin:10px 0 10px 25px;	
+}
+.portlet-content ul li {
+	margin:7px 0;	
+}
+.portlet-content ul li a{
+	color:#3f80ca;
+	text-decoration:none;	
 }

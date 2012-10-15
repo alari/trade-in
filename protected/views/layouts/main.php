@@ -39,7 +39,7 @@
 			</div><!-- mainmenu -->
 			<div class="clear"></div>
 			<div class="pusto">
-				Это пустой блок
+				ываыва
 			</div>
 		</div>
 	</div>

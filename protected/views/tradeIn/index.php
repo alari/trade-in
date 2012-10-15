@@ -57,7 +57,12 @@ $(function(){
 
 
     $('.removePreview').live('click',function(){
-        $(this).parent().html('');
+        
+		var id = $(this).parent().parent().find('input[type="file"]').attr('id');
+		var inpfile = $(this).parent().parent();
+		inpfile.find('input[type="file"]').remove();
+		inpfile.append('<input type="file" name="'+ id +'" id="'+ id +'" class="upload-box">');
+		$(this).parent().html('');
 
     });
 
@@ -71,29 +76,33 @@ $(function(){
             window.loadImage(
                 (e.dataTransfer || e.target).files[0],
                 function (img) {
-                    if(imageContainer){
+                    /*if(imageContainer){
                         // img /// HTMLImageElement
                         $('#'+prefixImageId+e.target.id).remove();
                         img.id = prefixImageId+e.target.id;
                         result.append(img);
-                    }else{
+                    }else{*/
                         var container = $('#'+prefixImageId+e.target.id);
+						container.find('.removePreview').remove();
                         container.append(img);
-                        container.append('<span class="removePreview">x</span>');
-                    }
+                        container.append('<img class="removePreview" src="/image/close-button.png" />');
+                    //}
 
                 },
                 {
                     maxWidth: 73,
-                    maxWidth: 73,
+                    maxHeight: 73,
                     //canvas: true //canvas or img
 
                 }
             );
         };
 
-    $('input[type="file"]').on('change', load);
-
+    $('input[type="file"]').live('change', load);
+	
+	$('.file_click').live('click',function(){
+		$(this).parent().find('input[type="file"]').click();
+	});
 });
 
 EOP;
@@ -102,7 +111,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
  //ng-controller='MyController'
 ?>
 	<h2>Заполните форму и получите предложения от салонов</h2>
-
+<div class="form">
     <?php $form = $this->beginWidget('ext.shared-core.widgets.ExtForm', array(
     "model"=>$model,
     'enableAjaxValidation' => false,
@@ -188,12 +197,13 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
         <?php echo $form->textField($model,'desired_price',array('size'=>60,'maxlength'=>200)); ?>
         <?php echo $form->error($model,'desired_price'); ?>
     </div>
-
+</div>
+<div class="sidebar">
+	<p>Добавить файл</p>
     <?$form->inject()?>
-
-    <div class="row buttons">
+</div>
+<div class="clear"></div>
         <?php echo CHtml::submitButton($model->isNewRecord ? 'Отправить заявку' : 'Save'); ?>
-    </div>
 
     <?php $this->endWidget(); ?>
 

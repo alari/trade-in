@@ -1,3 +1,4 @@
+<div class="service">
 <?php
 /* @var $this ServiceController */
 /* @var $model Service */
@@ -72,5 +73,6 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 		'address',
 	),
 )); ?>
-<br><br>
+
 <div id="map" style="width: 400px; height: 300px"></div>
+</div>

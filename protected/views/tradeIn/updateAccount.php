@@ -66,16 +66,15 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
 
 
 ?>
+<div class="b-updateAccount">
 <? echo CHtml::link('Назад к списку предложений',array('tradeIn/account','hash'=>$model->hash))?>
-<div class="form">
+<div class="b-upadteAccount_form">
 
     <?php $form = $this->beginWidget('ext.shared-core.widgets.ExtForm', array(
     "model"=>$model,
     'id' => 'appliance-form',
     'enableAjaxValidation' => false,
 )); ?>
-
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
 
     <?php echo $form->errorSummary($model); ?>
 
@@ -157,9 +156,11 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
         <?php echo $form->textField($model,'desired_price',array('size'=>60,'maxlength'=>200)); ?>
         <?php echo $form->error($model,'desired_price'); ?>
     </div>
-
+</div>
+<div class="sidebar">
+	<p>Добавить файл</p>
     <?$form->inject()?>
-
+</div>
     <div class="row buttons">
         <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
     </div>
@@ -167,4 +168,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
     <?php $this->endWidget(); ?>
 
 </div><!-- form -->
-<? echo CHtml::link('Назад к списку предложений',array('tradeIn/account','hash'=>$model->hash))?>
+<div class="clear"></div>
+<div class="b-updateAccount">
+	<? echo CHtml::link('Назад к списку предложений',array('tradeIn/account','hash'=>$model->hash))?>
+</div>
