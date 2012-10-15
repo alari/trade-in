@@ -54,7 +54,7 @@ return array(
                     'default' => 'big',
                     'sizes' => array(
                         "big" => "800x600",
-                        "tiny" => "152x130 thumb",
+                        "tiny" => "148x148 thumb",
                     )
                 ),
             ),
