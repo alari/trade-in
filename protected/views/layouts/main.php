@@ -21,13 +21,12 @@
 
 <div class="l_header">
 	<div class="b_header__logo left">
-		<a href="/tradeIn/index"><img src="/image/logo.png" /></a>
+		<a href="/"><img src="/image/logo.png" /></a>
 	</div><!--b_header__menu-->
 	<?php $this->widget('zii.widgets.CMenu',array(
 		'items'=>array(
 			array('label'=>'Главная', 'url'=>array('/tradeIn/index')),
-			array('label'=>'О нас', 'url'=>array('/site/page', 'view'=>'about')),
-			array('label'=>'Контакты', 'url'=>array('/site/contact')),
+			array('label'=>'Автосалоны', 'url'=>array('tradeIn/getServices')),
 			array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 			array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 		),

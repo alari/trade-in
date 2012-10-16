@@ -76,8 +76,8 @@ return array(
             'host'=>'smtp.yandex.ru',
             'port'=>465,
             'security'=>'ssl',
-            'username'=>'scsware@yandex.ru',
-            'password'=>'630124',
+            'username'=>'',
+            'password'=>'',
         ),
 
         #...
@@ -98,6 +98,6 @@ return array(
     ),
     'params' => array(
         // this is used in contact page
-        'httpHost' => 'http://tradein.e.dev',
+        'httpHost' => 'http://tradein.orena.org',
     ),
 );

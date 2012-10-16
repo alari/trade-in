@@ -68,8 +68,8 @@ return array(
             'host'=>'smtp.yandex.ru',
             'port'=>465,
             'security'=>'ssl',
-            'username'=>'scsware@yandex.ru',
-            'password'=>'630124',
+            'username'=>'',
+            'password'=>'',
         ),
 
 	),
