@@ -109,7 +109,7 @@ input[type="text"], select {
 select {
 	font-style:italic;
 	color:#9da1a6;
-	height:25px;
+	min-height:25px;
 	width:210px;	
 }
 select option {

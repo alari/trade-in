@@ -1,5 +1,4 @@
 <div class="l_content">
-<div class="service">
 <?php
 /* @var $this ServiceController */
 /* @var $model Service */
@@ -61,19 +60,23 @@ EOP;
 // Register js code
 $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_READY);
 ?>
-
-
-			
-<?php 
-	$image = $model->picHolder->images[0];
-	echo CHtml::image($image->getSrc('tiny'),$brand->title);
-?>
-
-
-
-	<? echo $model->title; ?>
-	<? echo $model->address; ?>
-	<? echo $model->phone; ?>
-	<div id="map" style="width: 400px; height: 300px"></div>
+		<h2 class="b_content_service_headertitle"><? echo $model->title; ?></h2>
+		<div class="b_content_service_logo">
+			<?php 
+				$image = $model->picHolder->images[0];
+				echo CHtml::image($image->getSrc('tiny'),$brand->title);
+			?>
+		</div>
+		<div class="b_content_service_description">
+			<p class="b_content_service_description_p">В салоне представлены</p>
+			<? echo $model->description; ?>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="b_content_service_map">
+			<div class="b_content_service_address"><? echo $model->address; ?></div>
+			<? echo $model->phone; ?>
+			<div id="map" style="width: 400px; height: 300px"></div>
+			</div>
 	</div>
-	</div>
+</div>

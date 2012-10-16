@@ -1,16 +1,38 @@
+<div class="l_content">
 
-<? foreach ($models as $model) { ?>
-    <div>
-        <? echo CHtml::link($model->title,$model->url());?>
-    </div>
-<? } ?>
-<br>
-<br>
-<br>
-<br>
-<br>
+ <script>
+    $(function() {
+        var availableTags = [
 <? foreach ($carBrands as $carBrand) { ?>
-<div>
-    <? echo CHtml::link($carBrand->title,$carBrand->url());?>
-</div>
+	            {
+                value: "<? echo $carBrand->title;?>",
+                label: "<? echo $carBrand->title;?>",
+                path: "<? echo CHtml::normalizeUrl($carBrand->url());?>",
+            },
+
 <? } ?>
+        ];
+        $( "#tags" ).autocomplete({
+            source: availableTags,
+			select: function( event, ui ) {
+				
+				location.href = ui.item.path;
+ 
+                return false;
+            }
+        });
+    });
+    </script>
+<div class="b_content_listservices">
+	<div class="ui-widget">
+		<label class="b_content_listservices_header" for="tags">Введите марку машину: </label>
+		<input id="tags" />
+	</div>
+	<? foreach ($models as $model) { ?>
+		<div class="b_content_listservices_item">
+			<? echo CHtml::link($model->title,$model->url());?>
+		</div>
+	<? } ?>
+</div>
+
+</div>

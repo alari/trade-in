@@ -13,10 +13,13 @@ $cs->registerScriptFile('http://api-maps.yandex.ru/2.0-stable/?load=package.stan
 $js = <<<EOP
 $(function(){
 	
-	$('.comment-read').click(function() {
-      $('.comment-block').fadeIn();
+	$('.b_content_account_table_td_comment_read').click(function() {
+      $(this).parent().find('.b_content_account_table_td_comment_read_comment_block').fadeIn();
     });
 	
+	$('.closeComment').click(function() {
+		$(this).parent().fadeOut();	
+	});
 	
     $('.closeMap').click(function(){
         $('#map'+$(this).attr('id')).html('');
@@ -108,7 +111,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
                         <? echo CHtml::image($im->getSrc('tiny')); break; ?>
                    <? }
                 } ?>
-                <? echo $negotiation->service->title;?>
+                <span class="b_content_account_table_td_titlecompany"><? echo $negotiation->service->title;?></span>
             </td>
 			
             <td class="b_content_account_table_td_position b_content_account_table_td">
@@ -119,7 +122,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 				<br>
                 <? //echo $negotiation->service->phone;?>
                 <? echo number_format($negotiation->service->phone,0,'.','-');?>
-                <div class="map-block" style="display:none;"><div id="<? echo $negotiation->service->id;?>" class="closeMap"></div>
+                <div class="map-block" style="display:none;"><div class="triangle"></div><div id="<? echo $negotiation->service->id;?>" class="closeMap"></div>
                     <div id="map<? echo $negotiation->service->id;?>" style="width: 400px; height: 300px"></div>
                 </div>
             </td>
@@ -129,18 +132,24 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
             </td>
 			
             <td class="b_content_account_table_td">
-				<div class="comment-read">Читать</div>
-				<div class="comment-block" style="display:none;">
-					<div id="comment<? echo $negotiation->service->id;?>" >
-					<? if ($negotiation->ransom || $negotiation->offset || $negotiation->commission ) {?> Салон готов предложить: <? }?>
-					<?  $modelForm = new ServiceForm(); $translate = $modelForm->attributeLabels();?>
-					<? echo (($negotiation->ransom == 1) ? $translate['ransom'].'<br>' : '' ); ?>
-					<? echo (($negotiation->offset == 1) ? $translate['offset'].'<br>' : '' ); ?>
-					<? echo (($negotiation->commission == 1) ? $translate['commission'].'<br>' : '' ); ?>
-					<br>
-					<? echo $negotiation->comment;?>
+				<div class="relative">
+				<div  class="b_content_account_table_td_comment_read">Читать</div>
+					<div class="b_content_account_table_td_comment_read_comment_block" style="display:none;" >
+					<div class="triangle"></div>
+					<div class="b_content_account_table_td_incomment left">
+						<div class="b_content_account_table_td_incomment_item_header"><? if ($negotiation->ransom || $negotiation->offset || $negotiation->commission ) {?> Салон готов предложить: <? }?></div>
+						<div class="b_content_account_table_td_incomment_item"><?  $modelForm = new ServiceForm(); $translate = $modelForm->attributeLabels();?></div>
+						<div class="b_content_account_table_td_incomment_item"><? echo (($negotiation->ransom == 1) ? $translate['ransom'].'<br>' : '' ); ?></div>
+						<div class="b_content_account_table_td_incomment_item"><? echo (($negotiation->offset == 1) ? $translate['offset'].'<br>' : '' ); ?></div>
+						<div class="b_content_account_table_td_incomment_item"><? echo (($negotiation->commission == 1) ? $translate['commission'].'<br>' : '' ); ?></div>
 					</div>
-				</div>
+					<div class="b_content_account_table_td_incomment_comment_right">
+						<div class="b_content_account_table_td_incomment_comment_right_header">Комментарий</div>	
+						<div class="b_content_account_table_td_incomment_item"><? echo $negotiation->comment;?></div>
+					</div>
+					<span class="closeComment"></span>
+					</div>
+					</div>
             </td>
 			
             <td class="b_content_account_table_td_lastchild">

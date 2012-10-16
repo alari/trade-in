@@ -133,7 +133,44 @@
 	color:#747474;
 	text-shadow:0 1px 1px #FFF;	
 }
-
+/* SALON PAGE */
+.b_content_service_headertitle {
+	display:block;
+	margin-left:44px;
+	color:#3f80ca;
+	font-size:20px;
+}
+.b_content_service_logo_description {
+	margin:40px 0 40px 44px;
+	color:#9da1a6;
+	font-size:14px;
+	line-height:20px;
+}
+.b_content_service_logo {
+	margin:20px 0 20px 44px;
+}
+.b_content_service_description {
+	margin:40px 0 40px 44px;
+	color:#9da1a6;
+	font-size:14px;
+	line-height:20px;
+	width:90%;	
+}
+.b_content_service_description_p {
+	display:block;
+	margin:20px 0;
+	font-size:16px;
+	color:#3f80ca;		
+}
+.b_content_service_map {
+	margin-left:44px;	
+}
+.b_content_service_address {
+	display:block;
+	margin:20px 0;
+	font-size:16px;
+	color:#3f80ca;	
+}
 /* Принятие заявки  */
 .b_content_acceptRequest_h2 {
 	display:block;
@@ -227,6 +264,27 @@
 	color:#747474;
 	text-shadow:0 1px 1px #FFF;	
 }
+
+/* LIST SERVICES*/
+.b_content_listservices {
+	display:block;
+}
+.b_content_listservices_header {
+	color:#3f80ca;
+	size:16px;
+	display: inline-block;
+	margin-left:44px;
+}
+.b_content_listservices_item {
+	margin:20px 0;
+	display:block;
+	border-bottom:1px dashed #d9d9d9;
+}
+.b_content_listservices_item a {
+	margin:20px 44px;
+	display:block;	
+	color:#3f80ca;
+}
 /* SIDEBAR */
 .l_sidebar {
 	position:relative;
@@ -298,7 +356,7 @@
 .b_content_account_table img{
 	display:block;
 	width:70px;
-	margin:0 auto;
+	margin:10px auto;
 }
 .b_content_account_table thead {
 	background:#3f80ca;
@@ -309,13 +367,16 @@
 	border-bottom:1px dashed #d9d9d9;
 	border-right:1px solid #d9d9d9;
 }
+.b_content_account_table_td_titlecompany {
+	display:block;
+	margin-bottom:10px;	
+}
 .b_content_account_table_td_lastchild {
 	border-right:none;	
 	border-bottom:1px dashed #d9d9d9;
 }
 .b_content_account_table_address {
-	position:relative;
-		
+	position:relative;	
 }
 .b_content_account_table_address:before {
 	content:url(../image/map_dota.png);
@@ -330,14 +391,23 @@
 	border-bottom:1px dashed #3f80ca;
 	text-decoration:none;
 }
-
 .b_content_account_table_td_position .map-block {
 	position:absolute;
-	left:-108px;
-	top:70px;
+	left:-50px;
+	top:54px;
 	z-index:1;
 	border-radius:4px;
 	border:5px solid #3f80ca;	
+}
+.b_content_account_table_td_position .map-block .triangle {
+	position:absolute;
+	top:-15px;
+	right:190px;
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #3f80ca;	
 }
 .viewmap {
 	cursor:pointer;	
@@ -351,6 +421,68 @@
 	top:-19px;
 	z-index:2;	
 }
+.closeComment {
+	width:26px;
+	height:26px;
+	background:url(../image/close-button.png) no-repeat;
+	position:absolute;
+	right:-17px;
+	top:-19px;
+	z-index:2;	
+}
+.b_content_account_table_td_comment_read {
+	display: inline-block;
+	margin:5px 0;
+	padding:0 -10px;
+	font-style:italic;
+	color:#3f80ca;
+	border-bottom:1px dashed #3f80ca;
+	text-decoration:none;
+	cursor:pointer;
+}
+.b_content_account_table_td_comment {
+	border-bottom:1px dashed #d9d9d9;
+	border-right:1px solid #d9d9d9;	
+}
+.relative{
+	position:relative;	
+}
+.b_content_account_table_td_comment_read_comment_block {
+	position:absolute;
+	background:#FFF;
+	width:665px;
+	left:-450px;
+	top:37px;
+	z-index:1;
+	border-radius:4px;
+	border:5px solid #3f80ca;
+	
+}
+.b_content_account_table_td_incomment {
+	border-right:1px solid #3f80ca;
+	padding:10px;
+	font-size:14px;
+	padding:20px;
+	display:block;
+	height:99%;
+}
+.b_content_account_table_td_incomment_item_header {
+	color:#000;
+}
+.b_content_account_table_td_incomment_item {
+	display:block;
+	margin:10px 0;
+	text-align:left;	
+}
+.b_content_account_table_td_incomment_comment_right {
+	padding:20px 10px;
+	margin-left:250px;
+	display:block;
+}
+.b_content_account_table_td_incomment_comment_right_header {
+	text-align:left;
+	color:#000;	
+}
 /* FOOTER */
 .b_footer_randomList {
 	display:block;
@@ -361,6 +493,16 @@
 	display:inline;
 	float:left;
 	margin:18px 5px 0;
+}
+.b_content_account_table_td_comment_read_comment_block .triangle {
+	position:absolute;
+	top:-15px;
+	right:155px;
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #3f80ca;	
 }
 
 /* LICENSE */

@@ -110,9 +110,9 @@ EOP;
 $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS_READY);
  //ng-controller='MyController'
 ?>
-<div class="b_header_contentbox">
+<!--<div class="b_header_contentbox">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra consectetur ligula quis commodo. Nulla massa lacus, auctor quis venenatis ac, laoreet ut mi. Curabitur feugiat erat eu dolor sollicitudin ac ultrices tellus rhoncus. Mauris sem metus, porttitor ac commodo in, egestas non massa. Proin ac egestas sapien. Morbi cursus leo a nunc placerat ultrices. Phasellus fringilla pellentesque quam in imperdiet. Cras at eros quis nisi hendrerit rutrum. Nam sed quam neque, ut sagittis mauris. Nam elementum consectetur urna, vitae egestas neque convallis non.</p>
-			</div>
+</div>-->
 <div class="l_content">
 
 	<h2 class="b_content__headertext">Заполните форму и получите предложения от салонов</h2>

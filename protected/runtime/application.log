@@ -6387,3 +6387,235 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://trade-in.ru/account/user507d15dac7d8d
 ---
+2012/10/16 18:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/tradeIn/index
+---
+2012/10/16 18:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/service/create
+---
+2012/10/16 18:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:25:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=.
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (174)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/16 18:25:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=' in Y:\home\trade-in.ru\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(174): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: TradeInController->actionGetServices('2')
+#5 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#6 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#12 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/services/2
+HTTP_REFERER=http://trade-in.ru/services/
+---
+2012/10/16 18:25:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=.
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (174)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/16 18:25:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=' in Y:\home\trade-in.ru\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(174): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: TradeInController->actionGetServices('1')
+#5 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#6 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#12 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/services/1
+HTTP_REFERER=http://trade-in.ru/services/
+---
+2012/10/16 18:25:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=.
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (174)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/16 18:25:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=' in Y:\home\trade-in.ru\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(174): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: TradeInController->actionGetServices('3')
+#5 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#6 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#12 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/services/3
+HTTP_REFERER=http://trade-in.ru/services/
+---
+2012/10/16 18:34:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=.
+in Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php (174)
+in Y:\home\trade-in.ru\www\index.php (13)
+2012/10/16 18:34:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`title`, `t`.`email`, `t`.`phone`, `t`.`address`, `t`.`pic_holder_id`, `t`.`path`, `t`.`description` FROM `tbl_service` `t` JOIN tbl_car_brand_to_service on t.id=tbl_car_brand_to_service.service_id WHERE car_brand_id=' in Y:\home\trade-in.ru\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(174): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: TradeInController->actionGetServices('3')
+#5 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#6 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#11 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#12 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/services/3
+HTTP_REFERER=http://trade-in.ru/services/
+---
+2012/10/16 18:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionReSaveCarBrand".' in Y:\home\trade-in.ru\www\framework\web\CController.php:484
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CController.php(271): CController->missingAction('actionReSaveCar...')
+#1 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('actionReSaveCar...')
+#2 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('site/actionReSa...')
+#3 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/actionReSaveCarBrand
+---
+2012/10/16 18:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 18:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

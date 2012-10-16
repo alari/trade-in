@@ -7,6 +7,11 @@
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
+	
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+	
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
@@ -16,7 +21,7 @@
 
 <div class="l_header">
 	<div class="b_header__logo left">
-		<a href="#"><img src="/image/logo.png" /></a>
+		<a href="/tradeIn/index"><img src="/image/logo.png" /></a>
 	</div><!--b_header__menu-->
 	<?php $this->widget('zii.widgets.CMenu',array(
 		'items'=>array(
