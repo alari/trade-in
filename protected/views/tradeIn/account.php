@@ -1,3 +1,4 @@
+<div class="l_content">
 <?php
 
 $modelNegotiations = array();
@@ -11,7 +12,12 @@ $cs = Yii::app()->getClientScript();
 $cs->registerScriptFile('http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU');
 $js = <<<EOP
 $(function(){
-
+	
+	$('.comment-read').click(function() {
+      $('.comment-block').fadeIn();
+    });
+	
+	
     $('.closeMap').click(function(){
         $('#map'+$(this).attr('id')).html('');
         $('#map'+$(this).attr('id')).parent().fadeOut();
@@ -24,6 +30,9 @@ $(function(){
         var salonId = $(this).attr('salon-id');
 
         $('#map'+salonId).html('');
+        $('#map'+salonId).parent().fadeIn();
+		
+		$('#map'+salonId).html('');
         $('#map'+salonId).parent().fadeIn();
 
         // Как только будет загружен API и готов DOM, выполняем инициализацию
@@ -69,11 +78,11 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 <div class="b-account">
 <!--  <? echo CHtml::link('Изменить анкету',array('tradeIn/accountUpdate','hash'=>$model->hash), array("class"=>"b-account_content_link"))?>
 <? if (isset($modelNegotiations['tender'])) {?>-->
-        <span class="b-account__span">Предложения для вас:</span>
-	<table class="b-account_table">
+        <span class="b_contnt_account_header_span">Предложения для вас:</span>
+	<table class="b_content_account_table">
         <thead>
 
-            <th class="b-account_table__thead_tr">
+            <th>
                 Салон
             </th>
             <th>
@@ -91,9 +100,9 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 
         </thead>
     <?foreach ($modelNegotiations['tender'] as $negotiation) { ?>
-        <tr class="b-account_table__tbody_tr">
+        <tr>
 
-            <td>
+            <td class="b_content_account_table_td">
                 <? if(count($negotiation->service->picHolder->images)){
                     foreach ($negotiation->service->picHolder->images as $im) { ?>
                         <? echo CHtml::image($im->getSrc('tiny')); break; ?>
@@ -101,31 +110,40 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
                 } ?>
                 <? echo $negotiation->service->title;?>
             </td>
-            <td class="b-account_table__td__absolute">
-                <? echo $negotiation->service->address;?>
+			
+            <td class="b_content_account_table_td_position b_content_account_table_td">
+                <span class="b_content_account_table_address"><? echo $negotiation->service->address;?>
                 <span class="getMap" salon-address="<? echo $negotiation->service->address;?>" salon-id="<? echo $negotiation->service->id;?>" salon-name="<? echo $negotiation->service->title;?>">
-                    <span class="viewmap">показать на карте</span>
+                    <span class="viewmap">Посмотреть на карте</span>
                 </span>
 				<br>
                 <? //echo $negotiation->service->phone;?>
                 <? echo number_format($negotiation->service->phone,0,'.','-');?>
-                <div class="map-block" style="display: none;">
+                <div class="map-block" style="display:none;"><div id="<? echo $negotiation->service->id;?>" class="closeMap"></div>
                     <div id="map<? echo $negotiation->service->id;?>" style="width: 400px; height: 300px"></div>
                 </div>
             </td>
-            <td>
+			
+            <td class="b_content_account_table_td">
                 <? echo $negotiation->manager_name;?>
             </td>
-            <td>
-                <? if ($negotiation->ransom || $negotiation->offset || $negotiation->commission ) {?> Салон готов предложить: <? }?>
-                <?  $modelForm = new ServiceForm(); $translate = $modelForm->attributeLabels();?>
-                <? echo (($negotiation->ransom == 1) ? $translate['ransom'].'<br>' : '' ); ?>
-                <? echo (($negotiation->offset == 1) ? $translate['offset'].'<br>' : '' ); ?>
-                <? echo (($negotiation->commission == 1) ? $translate['commission'].'<br>' : '' ); ?>
-                <br>
-                <? echo $negotiation->comment;?>
+			
+            <td class="b_content_account_table_td">
+				<div class="comment-read">Читать</div>
+				<div class="comment-block" style="display:none;">
+					<div id="comment<? echo $negotiation->service->id;?>" >
+					<? if ($negotiation->ransom || $negotiation->offset || $negotiation->commission ) {?> Салон готов предложить: <? }?>
+					<?  $modelForm = new ServiceForm(); $translate = $modelForm->attributeLabels();?>
+					<? echo (($negotiation->ransom == 1) ? $translate['ransom'].'<br>' : '' ); ?>
+					<? echo (($negotiation->offset == 1) ? $translate['offset'].'<br>' : '' ); ?>
+					<? echo (($negotiation->commission == 1) ? $translate['commission'].'<br>' : '' ); ?>
+					<br>
+					<? echo $negotiation->comment;?>
+					</div>
+				</div>
             </td>
-            <td>
+			
+            <td class="b_content_account_table_td_lastchild">
                 <? echo number_format($negotiation->price,0,'.',' ');?> р.
             </td>
 
@@ -168,5 +186,6 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
         <? }?>
     </table>
 <? } ?>
+</div>
 </div>
 </div>

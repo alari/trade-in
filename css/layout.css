@@ -8,6 +8,9 @@
 .clear {
 	clear:both;	
 }
+.overflow {
+	overflow:hidden;	
+}
 img { 
 	border:none;
 }
@@ -29,6 +32,7 @@ body {
 .right {
 	float:right;	
 }
+
 
 /* CAR */
 .l_body_frontcar {

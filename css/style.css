@@ -23,6 +23,11 @@
 	font-size:14px;
 	padding:9px 0 8px;	
 }
+.b_header__menu__item:first-child:before {
+	content:url(../image/menu_line_b.png);
+	position:absolute;
+	left:-10px;	
+}
 .b_header__menu__item:before {
 	content:url(../image/menu_line.png);
 	position:absolute;
@@ -271,6 +276,81 @@
 	border:none;	
 }
 
+/* SALON PAGE */
+.b_contnt_account_header_span {
+	display:block;
+	margin:0 0 20px 44px;
+	font-size:20px;
+	color:#3f80ca;	
+}
+.b_content_account_table {
+	text-align:center;
+	color:#9da1a6;
+	font-size:14px;
+	width:100%;
+}
+.b_content_account_table a {
+	font-style:italic;
+	color:#3f80ca;
+	border-bottom:1px dashed#3f80ca;
+	text-decoration:none;	
+}
+.b_content_account_table img{
+	display:block;
+	width:70px;
+	margin:0 auto;
+}
+.b_content_account_table thead {
+	background:#3f80ca;
+	color:#FFF;
+	font-size:14px;	
+}
+.b_content_account_table_td{
+	border-bottom:1px dashed #d9d9d9;
+	border-right:1px solid #d9d9d9;
+}
+.b_content_account_table_td_lastchild {
+	border-right:none;	
+	border-bottom:1px dashed #d9d9d9;
+}
+.b_content_account_table_address {
+	position:relative;
+		
+}
+.b_content_account_table_address:before {
+	content:url(../image/map_dota.png);
+	padding-right:5px;
+}
+.b_content_account_table .viewmap {
+	display: inline-block;
+	margin:5px 0;
+	padding:0 -10px;
+	font-style:italic;
+	color:#3f80ca;
+	border-bottom:1px dashed #3f80ca;
+	text-decoration:none;
+}
+
+.b_content_account_table_td_position .map-block {
+	position:absolute;
+	left:-108px;
+	top:70px;
+	z-index:1;
+	border-radius:4px;
+	border:5px solid #3f80ca;	
+}
+.viewmap {
+	cursor:pointer;	
+}
+.closeMap {
+	width:26px;
+	height:26px;
+	background:url(../image/close-button.png) no-repeat;
+	position:absolute;
+	right:-17px;
+	top:-19px;
+	z-index:2;	
+}
 /* FOOTER */
 .b_footer_randomList {
 	display:block;
