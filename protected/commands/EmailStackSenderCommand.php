@@ -9,7 +9,6 @@
 class EmailStackSenderCommand extends CConsoleCommand
 {
     public function run(array $args) {
-        echo ;
         $this->mailBuilder();
         echo "\n";
 
