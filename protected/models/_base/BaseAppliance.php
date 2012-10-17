@@ -54,15 +54,15 @@ abstract class BaseAppliance extends GxActiveRecord {
 			array('email', 'required'),
 			array('car_brand_id,car_model_id, list_holder_id, mileage', 'numerical', 'integerOnly'=>true),
 			array('email, desired_price', 'length', 'max'=>200),
-			array('hash', 'length', 'max'=>64),
+			array('hash , name', 'length', 'max'=>64),
 			array('condition', 'length', 'max'=>60),
 			array('volume', 'length', 'max'=>3),
 			array('color', 'length', 'max'=>100),
 			array('salon, transmission', 'length', 'max'=>20),
 			array('year', 'length', 'max'=>4),
 			array('engine, gearbox', 'length', 'max'=>50),
-			array('hash, car_brand_id, car_model_id, list_holder_id, color, mileage, salon, condition, year, engine, volume, gearbox, transmission, desired_price', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('id, email, hash, car_brand_id, car_model_id, list_holder_id,  color, mileage, salon, condition, year, engine, volume, gearbox, transmission, desired_price, mail_status', 'safe', 'on'=>'search'),
+			array('hash, name, car_brand_id, car_model_id, list_holder_id, color, mileage, salon, condition, year, engine, volume, gearbox, transmission, desired_price', 'default', 'setOnEmpty' => true, 'value' => null),
+			array('id, email, hash, car_brand_id, car_model_id, list_holder_id,  color, mileage, salon, condition, year, engine, volume, gearbox, transmission, desired_price, mail_status, name', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -85,7 +85,7 @@ abstract class BaseAppliance extends GxActiveRecord {
 			'id' => Yii::t('app', 'ID'),
 			'email' => Yii::t('app', 'Email'),
 			'hash' => Yii::t('app', 'Hash'),
-			'car_brand_id' => null,
+			'car_brand_id' => Yii::t('app', 'Марка'),
 			'car_model_id' => Yii::t('app', 'Модель'),
 			'list_holder_id' => null,
 			'color' => Yii::t('app', 'Цвет'),
@@ -100,6 +100,7 @@ abstract class BaseAppliance extends GxActiveRecord {
 			'desired_price' => Yii::t('app', 'Желаемая цена'),
 			'carBrand' => Yii::t('app', 'Марка'),
             'carModel' => Yii::t('app', 'Модель'),
+            'name' => Yii::t('app', 'Ваше имя'),
 			'listHolder' => null,
 			'negotiations' => null,
 		);

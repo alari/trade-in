@@ -198,6 +198,12 @@ $cs->registerScript('Yii.' . get_class($this) . '#form', $js, CClientScript::POS
     </div>
 
     <div class="b_content__form__inputbox">
+        <?php echo $form->labelEx($model,'name'); ?>
+        <?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>200)); ?>
+        <?php echo $form->error($model,'name'); ?>
+    </div>
+
+    <div class="b_content__form__inputbox">
         <?php echo $form->labelEx($model,'desired_price'); ?>
         <?php echo $form->textField($model,'desired_price',array('size'=>60,'maxlength'=>200)); ?>
         <?php echo $form->error($model,'desired_price'); ?>
