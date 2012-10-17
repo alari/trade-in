@@ -80,4 +80,3 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 			<div id="map" style="width: 400px; height: 300px"></div>
 			</div>
 	</div>
-</div>
