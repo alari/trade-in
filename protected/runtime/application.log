@@ -6619,3 +6619,476 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/10/16 19:14:38 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:43 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:44 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:45 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:45 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:45 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:45 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:46 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:46 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:46 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:46 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:16:08 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/16 19:16:09 [error] [exception.CException] exception 'CException' with message 'Service and its behaviors do not have a method or closure named "getSrc".' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getSrc', Array)
+#1 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): CActiveRecord->__call('getSrc', Array)
+#2 Y:\home\trade-in.ru\www\protected\views\tradeIn\listServices.php(33): Service->getSrc('tiny')
+#3 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#5 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('listServices', Array, true)
+#7 Y:\home\trade-in.ru\www\protected\controllers\TradeInController.php(184): CController->render('listServices', Array)
+#8 [internal function]: TradeInController->actionGetServices('Audi')
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TradeInController), Array)
+#10 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TradeInController), Object(ReflectionMethod), Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('getServices')
+#15 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('tradeIn/getServ...')
+#16 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/services/Audi
+HTTP_REFERER=http://trade-in.ru/services
+---
+2012/10/16 19:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/17 10:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/site/login
+---
+2012/10/17 10:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/17 11:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/10/17 11:04:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\home\trade-in.ru\www\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://trade-in.ru/account/user5076d0d16d384
+---
+2012/10/17 11:09:36 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.Запомнить меня" is not defined.' in Y:\home\trade-in.ru\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php(2158): CComponent->__get('???????????????...')
+#1 Y:\home\trade-in.ru\www\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(LoginForm), '???????????????...')
+#2 Y:\home\trade-in.ru\www\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(LoginForm), '???????????????...', Array)
+#3 Y:\home\trade-in.ru\www\protected\views\site\login.php(38): CActiveForm->checkBox(Object(LoginForm), '???????????????...')
+#4 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(127): require('Y:\home\trade-i...')
+#5 Y:\home\trade-in.ru\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Y:\home\trade-i...', Array, true)
+#6 Y:\home\trade-in.ru\www\framework\web\CController.php(870): CBaseController->renderFile('Y:\home\trade-i...', Array, true)
+#7 Y:\home\trade-in.ru\www\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 Y:\home\trade-in.ru\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 Y:\home\trade-in.ru\www\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#10 Y:\home\trade-in.ru\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Y:\home\trade-in.ru\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Y:\home\trade-in.ru\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(283): CController->run('login')
+#14 Y:\home\trade-in.ru\www\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#15 Y:\home\trade-in.ru\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Y:\home\trade-in.ru\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://trade-in.ru/site/page?view=about
+---

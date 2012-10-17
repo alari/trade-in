@@ -504,6 +504,35 @@
     border-right: 8px solid transparent;
     border-bottom: 10px solid #3f80ca;	
 }
+/* LOGIN PAGE */
+.l_content_login_header {
+	display:block;
+	margin-left:44px;
+	font-size:20px;
+	color:#3f80ca;
+}
+.b_content_login_form {
+	margin:20px 0 20px 44px;	
+}
+.b_content_login_form .row {
+	margin:20px 0;	
+}
+.b_content_login_form .row label {
+	display:inline-block;
+	width:200px;	
+}
+.b_content_login_button input {
+	display:block;
+	margin-left:224px;
+	width:188px;
+	height:38px;
+	background:url(../image/bg-button.jpg) repeat-x;
+	border:1px solid #ffff9a;
+	box-shadow:0 0 1px #e2b500;
+	font-size:17px;
+	color:#7e7235;
+	text-shadow:0 1px 1px #FFF;	
+}
 
 /* LICENSE */
 .b_license__p {
@@ -513,123 +542,4 @@
 }
 .l_license img {
 	margin-top:30px;	
-}
-
-
-
-/*	
-
-
- ACCOUNT PAGE
-.b-account_table {
-	width:101%;
-	font-size:13px;
-	text-align:center;
-}
-.b-account_table thead{
-	color:#FFF;
-	background:#3f80ca;	
-}
-.b-account_table__tbody_tr td {
-	border-right:1px solid #d9d9d9;
-	border-bottom:1px dashed #d9d9d9;	
-}
-.b-account_table__td__absolute {
-	position:relative;	
-}
-.map-block {
-	position:absolute;
-	top:150px;
-	left:64px;
-	border-radius:5px;
-	border:3px solid #3f80ca;
-	z-index:2;
-}
-.b-account_bottom__span {	
-	color:#3f80ca;
-	text-decoration:none;
-	display:block;
-	margin:25px;
-}
-.b-account_bottom__table {
-	margin-left:25px;	
-}
-.b-account_bottom__table thead{
-	color:#FFF;
-	background:#3f80ca;
-}
-.b-account_bottom__table thead th {
-	padding:0 15px;
-}
-.b-account_bottom__table tbody {
-	color:#9da1a6;
-	text-align:center;
-}
-.b-account_bottom__table tbody td {
-	border-bottom:1px dashed #d9d9d9;
-
-	border-left:1px solid #d9d9d9;
-	padding:10px;
-	min-width:120px;
-	min-height:30px;	
-}
-.viewmap {
-	font-size:14px;
-	color:#3f80ca;
-	font-style:italic;
-	border-bottom:1px dashed #3f80ca;	
-}
- UPDATE ACCOUNT
-.b-account_content_link {
-	color:#3f80ca;
-	text-decoration:none;
-	display:block;
-	margin-left:25px;	
-}
-.b-updateAccount a {
-	color:#3f80ca;
-	text-decoration:none;
-	display:block;
-	margin-left:25px;
-}
-.b-upadteAccount_form .row {
-	width:230px; float:left; min-height:75px;
-}
-.b-upadteAccount_form .row label {
-	display:block;	
-}
-.b-upadteAccount_form fieldset {
-	border:none;	
-}
-.b-updateAccount .sidebar .row input[type="file"], .b-updateAccount .sidebar .row input[type="text"], .b-updateAccount .sidebar .row input[type="checkbox"] {
-	display:none;	
-}
-.b-account__span {
-	color:#3f80ca;
-	text-decoration:none;
-	display:block;
-	margin:0 0 25px 25px;	
-}
-	PORTLET PAGE
-.service #map {
-	margin:10px;	
-}
-.service h1 {
-	color:#3f80ca;
-	display:block;
-	margin:10px 0 25px 25px;
-}
-.portlet {
-	margin:25px 0 0 25px;
-}
-.portlet-content ul{
-	list-style-type:none;
-	margin:10px 0 10px 25px;	
-}
-.portlet-content ul li {
-	margin:7px 0;	
-}
-.portlet-content ul li a{
-	color:#3f80ca;
-	text-decoration:none;	
 }
