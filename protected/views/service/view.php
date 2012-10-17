@@ -75,8 +75,9 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 		<div class="clear"></div>
 		
 		<div class="b_content_service_map">
+			<div class="b_content_service_cor">Координаты: </div>
 			<div class="b_content_service_address"><? echo $model->address; ?></div>
-			<? echo $model->phone; ?>
+			<div class="b_content_service_phone"><? echo $model->phone; ?>
 			<div id="map" style="width: 400px; height: 300px"></div>
 			</div>
 	</div>
