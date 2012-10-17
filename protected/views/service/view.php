@@ -64,7 +64,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
 		<div class="b_content_service_logo">
 			<?php if(isset($model->picHolder->images[0])){
                     $image = $model->picHolder->images[0];
-                    echo CHtml::image($image->getSrc('tiny'),$brand->title);
+                    echo CHtml::image($image->getSrc('tiny'),$model->title);
                 }
 			?>
 		</div>
