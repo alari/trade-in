@@ -160,10 +160,10 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
     <? }?>
     </table>
 <? } ?>
-<div class="b-account_bottom">
+<div class="b_account_bottom">
 <? if (isset($modelNegotiations['denial'])) {?>
-    <span class="b-account_bottom__span">Отказы:</span>
-    <table class="b-account_bottom__table">
+    <span class="b_account_bottom_span">Отказы:</span>
+    <table class="b_account_bottom_table">
         <thead>
 
         <th>
@@ -177,7 +177,7 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
         <?foreach ($modelNegotiations['denial'] as $negotiation) { ?>
         <tr>
 
-            <td>
+            <td class="b_account_bottom_table_td_left">
 
                 <? echo $negotiation->service->title;?>
             </td>
