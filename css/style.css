@@ -165,11 +165,23 @@
 .b_content_service_map {
 	margin-left:44px;	
 }
-.b_content_service_address {
+.b_content_service_cor {
 	display:block;
 	margin:20px 0;
 	font-size:16px;
 	color:#3f80ca;	
+}
+.b_content_service_address {
+	font-size:14px;
+	color:#9da1a6;	
+}
+.b_content_service_address:before {
+	content:url(../image/map_dota.png);
+	padding-right:5px;
+}
+.b_content_service_phone {
+	display:block;
+	margin:15px 0;	
 }
 /* Принятие заявки  */
 .b_content_acceptRequest_h2 {
