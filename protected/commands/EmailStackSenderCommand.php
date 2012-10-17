@@ -46,7 +46,7 @@ class EmailStackSenderCommand extends CConsoleCommand
     public function mailBuilder(){
 
         foreach($this->getAppliances() as $appliance){
-            $layout = dirname(__FILE__)"/../views/emailLayouts/appliance.php";
+            $layout = dirname(__FILE__)."/../views/emailLayouts/appliance.php";
             $content = $this->renderFile($layout, array('model'=>$appliance), true);
             Yii::app()->getModule("emailSender")->send($appliance->email, 'USER ACCOUNT', $content);
 
@@ -63,7 +63,7 @@ class EmailStackSenderCommand extends CConsoleCommand
 
             }
 
-            $layout = dirname(__FILE__)"/../views/emailLayouts/service.php";
+            $layout = dirname(__FILE__)."/../views/emailLayouts/service.php";
             $content = $this->renderFile($layout, array('models'=>$serviceNegotiations), true);
             Yii::app()->getModule("emailSender")->send($serviceNegotiations['0']['service']['email'], 'NEW APPLIANCE', $content);
             foreach($serviceNegotiations as $negotiation){
