@@ -73,11 +73,11 @@ return array(
             'fromTitle'=>'Trade in',
 
             'mode'=>'smtp',
-            'host'=>'smtp.yandex.ru',
+            'host'=>'smtp.gmail.com',
             'port'=>465,
             'security'=>'ssl',
-            'username'=>'scsware@yandex.ru',
-            'password'=>'630124',
+            'username'=>'taktikatest@gmail.com',
+            'password'=>'aQEgn47S2LpfM',
         ),
 
         #...
@@ -98,6 +98,6 @@ return array(
     ),
     'params' => array(
         // this is used in contact page
-        'httpHost' => 'http://tradein.e.dev',
+        'httpHost' => 'http://tradein.orena.org',
     ),
 );
