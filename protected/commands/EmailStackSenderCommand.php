@@ -52,6 +52,7 @@ class EmailStackSenderCommand extends CConsoleCommand
             Yii::app()->getModule("emailSender")->send($appliance->email, 'USER ACCOUNT', $content);
 
             $appliance->mail_status = 'sent';
+            echo "user sent \n";
             $appliance->save();
         }
 
@@ -68,6 +69,7 @@ class EmailStackSenderCommand extends CConsoleCommand
             Yii::app()->getModule("emailSender")->send($serviceNegotiations['0']['service']['email'], 'NEW APPLIANCE', $content);
             foreach($serviceNegotiations as $negotiation){
                 $negotiation->mail_status = 'sent';
+                echo "service sent \n";
                 $negotiation->save();
             }
         }

@@ -98,6 +98,6 @@ return array(
     ),
     'params' => array(
         // this is used in contact page
-        'httpHost' => 'http://tradein.orena.org',
+        'httpHost' => 'http://trade-in.orena.org',
     ),
 );

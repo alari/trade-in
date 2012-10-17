@@ -11,8 +11,8 @@
 <div class="l_content">
 <h2 class="b_content_diclineNotice"> Вы отказались от объявления "
 <?php //echo $model->appliance->carBrand->title?> 
-<?php echo $model->appliance->carModel->title?> == 
-<?php echo $model->appliance->year?> " </h2>
+<?php echo $model->appliance->carModel->title?> &nbsp;
+<?php echo $model->appliance->year?> г.в." </h2>
 
 <?php //echo $form->errorSummary($modelForm); ?>
 	<h3 class="b_content_notice">Мы будем очень вам благодарны если вы укажите причину отказа:</h3>
