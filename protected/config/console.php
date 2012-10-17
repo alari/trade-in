@@ -73,11 +73,11 @@ return array(
             'fromTitle'=>'Trade in',
 
             'mode'=>'smtp',
-            'host'=>'smtp.yandex.ru',
+            'host'=>'smtp.gmail.com',
             'port'=>465,
             'security'=>'ssl',
-            'username'=>'',
-            'password'=>'',
+            'username'=>'taktikatest@gmail.com',
+            'password'=>'aQEgn47S2LpfM',
         ),
 
         #...
