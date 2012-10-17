@@ -78,9 +78,11 @@ EOP;
 $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_READY);
 
 ?>
+
+
 <div class="b-account">
-<!--  <? echo CHtml::link('Изменить анкету',array('tradeIn/accountUpdate','hash'=>$model->hash), array("class"=>"b-account_content_link"))?>
-<? if (isset($modelNegotiations['tender'])) {?>-->
+<!--  <? echo CHtml::link('Изменить анкету',array('tradeIn/accountUpdate','hash'=>$model->hash), array("class"=>"b-account_content_link"))?> -->
+<? if (isset($modelNegotiations['tender'])) {?>
         <span class="b_contnt_account_header_span">Предложения для вас:</span>
 	<table class="b_content_account_table">
         <thead>
@@ -159,6 +161,9 @@ $cs->registerScript('Yii.' . get_class($this) . '#map', $js, CClientScript::POS_
         </tr>
     <? }?>
     </table>
+<? }else{ ?>
+    <span class="b_contnt_account_header_span">Пока автосалоны не ответили</span>
+
 <? } ?>
 <div class="b_account_bottom">
 <? if (isset($modelNegotiations['denial'])) {?>
