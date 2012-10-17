@@ -126,7 +126,7 @@ class SiteController extends Controller
             }*/
 
             $img = glob('img_brand/'.str_replace(' ','',strtolower(trim($brand->title))).'*');
-            if (count($img)){
+            if (count($img) && file_exists($img['0'])){
                 $im = new HeldImage();
                 $im->holder_id = $brand->picHolder->id;
                 $im->title = trim($brand->title);
