@@ -30,7 +30,7 @@
 	</div>
 	<? foreach ($models as $model) { ?>
 		<div class="b_content_listservices_item">
-			<? $image = $model->picHolder->images[0]; ?>
+
 			<? echo CHtml::link($model->title,$model->url());?>
 		</div>
 	<? } ?>

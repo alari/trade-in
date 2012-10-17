@@ -27,7 +27,7 @@
 		'items'=>array(
 			array('label'=>'Главная', 'url'=>array('/tradeIn/index')),
 			array('label'=>'Автосалоны', 'url'=>array('tradeIn/getServices')),
-			array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Manage Services', 'url'=>array('service/admin'), 'visible'=>!Yii::app()->user->isGuest),
 			array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 		),
 		'itemCssClass' =>'b_header__menu__item',
