@@ -96,7 +96,7 @@ body {
 	font-size:10px;	
 }
 /* INPUT TEXT SELECT */
-input[type="text"], select {
+input[type="text"], select, input[type="password"] {
 	width:200px;
 	border:1px solid #d9d9d9;
 	border-radius:4px;

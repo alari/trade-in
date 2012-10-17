@@ -1,3 +1,4 @@
+<div class="l_content">
 <?php
 /* @var $this SiteController */
 /* @var $model ContactForm */
@@ -83,3 +84,4 @@ If you have business inquiries or other questions, please fill out the following
 </div><!-- form -->
 
 <?php endif; ?>
+</div>
