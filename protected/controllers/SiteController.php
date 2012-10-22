@@ -107,6 +107,20 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
+    public function actionFormatCarModel(){
+        $brands = CarBrand::model()->findAll();
+        foreach($brands as $brand){
+            foreach ($brand->carModels as $carModel) {
+                 // $carModel->title."<br>";
+                $carModel->title = ucwords(str_replace(strtolower($brand->title),'',strtolower($carModel->title)));
+                $carModel->save();
+                echo ucwords(str_replace(strtolower($brand->title),'',strtolower($carModel->title)))."<br>";
+            }
+
+           echo "<br>";
+        }
+    }
+
     public function actionParserLogo(){
         $brands = CarBrand::model()->findAll();
 
